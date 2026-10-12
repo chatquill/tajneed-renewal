@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tajneed Renewal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Start screen -->
+  <section id="start-screen" class="screen" hidden>
+    <div class="start-box">
+      <h1>Tajneed Renewal</h1>
+      <p>Choose a mode for this tab.</p>
+      <div class="start-buttons">
+        <button id="choose-edit" class="big">Edit mode</button>
+        <button id="choose-view" class="big secondary">View mode</button>
+      </div>
+      <p class="hint">Open View mode in a second tab (or window on the second screen) for the member to look at.</p>
+    </div>
+  </section>
+
+  <!-- Edit mode -->
+  <section id="edit-screen" class="screen" hidden>
+    <header class="topbar">
+      <h1>Tajneed Renewal <span class="tag">Edit</span></h1>
+      <div class="topbar-actions">
+        <span id="file-info" class="muted"></span>
+        <button id="load-file" class="secondary">Load file</button>
+        <button id="export-csv" class="secondary">Export CSV</button>
+        <button id="export-xlsx" class="secondary">Export Excel</button>
+        <button id="open-view" class="secondary">Open view tab</button>
+      </div>
+    </header>
+
+    <div id="no-data" class="empty" hidden>
+      <p>No tajneed file loaded yet.</p>
+      <button id="load-file-empty" class="big">Choose CSV or Excel file</button>
+      <p class="hint">Example data: <code>data/tajneed.csv</code></p>
+    </div>
+
+    <main id="edit-main" class="edit-layout" hidden>
+      <aside class="list-panel">
+        <input id="search" type="search" placeholder="Search name or AIMS ID" autocomplete="off">
+        <div id="result-count" class="muted"></div>
+        <ul id="member-list" class="member-list"></ul>
+      </aside>
+
+      <section class="detail-panel">
+        <div id="detail-empty" class="empty">
+          <p>Select a member to edit.</p>
+        </div>
+        <form id="member-form" hidden>
+          <div class="form-head">
+            <h2 id="form-title"></h2>
+            <div class="form-actions">
+              <label class="inline">Verified by
+                <input id="editor-name" type="text" placeholder="Your name">
+              </label>
+              <button type="button" id="close-member" class="secondary">Close</button>
+              <button type="submit" id="save-member">Save</button>
+            </div>
+          </div>
+          <div id="form-fields" class="form-grid"></div>
+        </form>
+        <div id="save-status" class="status" hidden></div>
+      </section>
+    </main>
+  </section>
+
+  <!-- View mode -->
+  <section id="view-screen" class="screen" hidden>
+    <div id="view-waiting" class="empty view-waiting">
+      <h1>Tajneed Renewal</h1>
+      <p>Please wait…</p>
+    </div>
+    <div id="view-member" hidden>
+      <h1 id="view-name"></h1>
+      <p class="muted">Please check your details below and tell us if anything is wrong.</p>
+      <div id="view-updated" class="status" hidden>Details updated</div>
+      <div id="view-sections"></div>
+    </div>
+  </section>
+
+  <input id="file-input" type="file" accept=".csv,.xlsx,.xls" hidden>
+
+  <script src="vendor/xlsx.mini.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
