@@ -106,6 +106,10 @@ textarea { resize: vertical; min-height: 2.6rem; }
 .field.dirty input, .field.dirty select, .field.dirty textarea { background: var(--changed); }
 .field input[readonly] { background: var(--bg); color: var(--muted); }
 
+.col-warning {
+  background: #fff4d6; border-bottom: 1px solid #e9c46a; color: #6b4a00;
+  padding: 0.6rem 1rem; font-size: 0.95rem;
+}
 .empty { text-align: center; padding: 3rem 1rem; color: var(--muted); }
 
 .status {

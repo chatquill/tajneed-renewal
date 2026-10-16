@@ -391,8 +391,19 @@
       $('edit-main').hidden = !has;
       $('export-csv').disabled = !has;
       $('export-xlsx').disabled = !has;
-      if (!has) { $('file-info').textContent = ''; return; }
+      if (!has) { $('file-info').textContent = ''; $('col-warning').hidden = true; return; }
       const d = this.data;
+      // Warn when the file doesn't have the tajneed sheet's columns (e.g. an old or different file)
+      const keys = d.columns.map((c) => c.key);
+      const missing = Object.keys(FIELDS).filter((k) => !keys.includes(k)).map((k) => FIELDS[k].label);
+      const extra = d.columns.filter((c) => !FIELDS[c.key] && c.key !== d.idKey && c.key !== d.nameKey).map((c) => c.header);
+      $('col-warning').hidden = !missing.length;
+      $('col-warning').innerHTML = missing.length
+        ? '<strong>' + escapeHtml(d.fileName) + ' does not match the tajneed sheet.</strong> Missing columns: ' +
+          missing.map(escapeHtml).join(', ') + '.' +
+          (extra.length ? ' Unknown columns (shown under Other): ' + extra.map(escapeHtml).join(', ') + '.' : '') +
+          ' Click <em>Load file</em> to load the right file.'
+        : '';
       $('file-info').textContent = d.fileName + ' · ' + d.rows.length + ' members' +
         (d.changed.length ? ' · ' + d.changed.length + ' updated' : '');
       this.index = d.rows.map((r) => {
