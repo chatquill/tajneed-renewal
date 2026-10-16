@@ -17,11 +17,13 @@ OUT_DIR = Path(__file__).resolve().parent.parent / "data"
 TODAY = date(2026, 10, 1)
 TARGET_MEMBERS = 200
 
+# Same columns, same order, as the real tajneed sheet
 COLUMNS = [
-    "aims_id", "full_name", "father_or_husband_name", "gender", "date_of_birth",
-    "marital_status", "auxiliary", "majlis", "region", "address", "postcode",
-    "phone", "email", "family_id", "head_of_household", "relationship_to_head",
-    "last_verified_date", "verified_by", "notes",
+    "AMJS ID", "Family Code", "Relationship to HOF", "Record Status", "Name",
+    "Marital Status", "Address 1", "Address 2", "Address 3", "Address 4", "City",
+    "Post Code", "Country", "Telephone RES", "Telephone Work", "Mobile",
+    "Telephone Other", "Email", "Branch", "Age", "Tanzeem", "Date of Birth",
+    "Wasiyyat Number", "Wasiyyat Status", "Waqf-e-Nau Number",
 ]
 
 MALE_FIRST = [
@@ -41,21 +43,27 @@ SURNAMES = [
     "Rehman", "Latif", "Siddiqui", "Bhatti", "Ghuman", "Dogar", "Tahir", "Nasir",
 ]
 
-# (region, [majlis...], postcode prefixes, towns)
-AREAS = [
-    ("London South", ["Baitul Futuh", "Morden", "Mitcham", "Tooting"], ["SM4", "CR4", "SW17"], "London"),
-    ("London West", ["Hounslow North", "Southall", "Hayes", "Feltham"], ["TW3", "UB1", "UB3"], "London"),
-    ("Islamabad", ["Tilford", "Farnham", "Guildford"], ["GU10", "GU9", "GU1"], "Surrey"),
-    ("Midlands", ["Birmingham West", "Wolverhampton", "Coventry"], ["B16", "WV1", "CV1"], "West Midlands"),
-    ("North East", ["Leeds", "Bradford", "Huddersfield"], ["LS8", "BD3", "HD1"], "West Yorkshire"),
-    ("Scotland", ["Glasgow", "Edinburgh"], ["G41", "EH7"], "Scotland"),
+# (branch, city, postcode prefix, landline area code)
+BRANCHES = [
+    ("Baitul Futuh", "Morden", "SM4", "020"),
+    ("Mitcham", "Mitcham", "CR4", "020"),
+    ("Tooting", "London", "SW17", "020"),
+    ("Hounslow North", "Hounslow", "TW3", "020"),
+    ("Southall", "Southall", "UB1", "020"),
+    ("Islamabad", "Tilford", "GU10", "01252"),
+    ("Birmingham West", "Birmingham", "B16", "0121"),
+    ("Coventry", "Coventry", "CV1", "024"),
+    ("Leeds", "Leeds", "LS8", "0113"),
+    ("Bradford", "Bradford", "BD3", "01274"),
+    ("Glasgow", "Glasgow", "G41", "0141"),
 ]
 
 STREETS = [
-    "Mosque Lane", "Gressenhall Road", "London Road", "Church Street", "Victoria Road",
-    "Station Road", "Park Avenue", "Queens Road", "High Street", "Mill Lane",
-    "Elm Grove", "Oak Close", "Kings Avenue", "Grange Road", "Cedar Drive",
+    "Gressenhall Road", "London Road", "Church Street", "Victoria Road", "Station Road",
+    "Park Avenue", "Queens Road", "High Street", "Mill Lane", "Elm Grove", "Oak Close",
+    "Kings Avenue", "Grange Road", "Cedar Drive", "Mosque Lane",
 ]
+LOCALITIES = ["", "", "", "Northfield", "Westbury", "St Johns", "Hillside"]
 
 
 def rand_date(min_age, max_age):
@@ -68,8 +76,7 @@ def age_on(dob):
     return TODAY.year - dob.year - ((TODAY.month, TODAY.day) < (dob.month, dob.day))
 
 
-def auxiliary_for(gender, dob):
-    age = age_on(dob)
+def tanzeem_for(gender, age):
     if gender == "Male":
         if age < 15:
             return "Atfal"
@@ -77,8 +84,12 @@ def auxiliary_for(gender, dob):
     return "Nasirat" if age < 15 else "Lajna"
 
 
-def phone():
+def mobile():
     return "07" + "".join(str(random.randint(0, 9)) for _ in range(9))
+
+
+def landline(area):
+    return area + "".join(str(random.randint(0, 9)) for _ in range(11 - len(area)))
 
 
 def email(first, last):
@@ -87,85 +98,94 @@ def email(first, last):
 
 
 def postcode(prefix):
-    return f"{prefix} {random.randint(1, 9)}{random.choice('ABDEFGHJLNPQRSTUWXYZ')}{random.choice('ABDEFGHJLNPQRSTUWXYZ')}"
+    letters = "ABDEFGHJLNPQRSTUWXYZ"
+    return f"{prefix} {random.randint(1, 9)}{random.choice(letters)}{random.choice(letters)}"
 
 
-def verification():
-    if random.random() < 0.35:
-        return "", ""
-    d = TODAY - timedelta(days=random.randint(30, 900))
-    return d.isoformat(), random.choice(["Tajneed Secretary", "Qaid Majlis", "Sadr Majlis", "Zaeem"])
+class Ids:
+    member = 10231
+    wasiyyat = 31540
+    waqf_nau = 52110
 
 
-def make_family(family_no, next_id):
-    region, majlis_list, prefixes, town = random.choice(AREAS)
-    majlis = random.choice(majlis_list)
+def make_family(family_code):
+    branch, city, prefix, area = random.choice(BRANCHES)
     surname = random.choice(SURNAMES)
-    address = f"{random.randint(1, 220)} {random.choice(STREETS)}, {majlis}, {town}"
-    pc = postcode(random.choice(prefixes))
-    family_id = f"F{family_no:04d}"
+    house = random.choice([str(random.randint(1, 220)), f"Flat {random.randint(1, 30)}"])
+    if house.startswith("Flat"):
+        addr1, addr2 = house, f"{random.choice(['Oak', 'Elm', 'Rose', 'Park'])} House, {random.randint(1, 90)} {random.choice(STREETS)}"
+    else:
+        addr1, addr2 = f"{house} {random.choice(STREETS)}", ""
+    addr3 = random.choice(LOCALITIES)
+    pc = postcode(prefix)
+    home_phone = landline(area) if random.random() < 0.6 else ""
     people = []
 
-    def add(first, gender, dob, father_or_husband, marital, head, relation, own_contact=True):
-        nonlocal next_id
-        verified_on, verified_by = verification()
-        notes = random.choice(["", "", "", "", "Moved recently - confirm address", "Phone number may be old"])
+    def add(first, gender, dob, marital, relation, own_contact=True):
+        age = age_on(dob)
+        wasiyyat_no, wasiyyat_status = "", ""
+        if age >= 15 and random.random() < 0.3:
+            Ids.wasiyyat += random.randint(1, 60)
+            wasiyyat_no, wasiyyat_status = str(Ids.wasiyyat), "M"
+        waqf_nau = "0"
+        if dob.year >= 1987 and random.random() < 0.25:
+            Ids.waqf_nau += random.randint(1, 40)
+            waqf_nau = str(Ids.waqf_nau)
         people.append({
-            "aims_id": str(next_id),
-            "full_name": f"{first} {surname}",
-            "father_or_husband_name": father_or_husband,
-            "gender": gender,
-            "date_of_birth": dob.isoformat(),
-            "marital_status": marital,
-            "auxiliary": auxiliary_for(gender, dob),
-            "majlis": majlis,
-            "region": region,
-            "address": address,
-            "postcode": pc,
-            "phone": phone() if own_contact else "",
-            "email": email(first, surname) if own_contact else "",
-            "family_id": family_id,
-            "head_of_household": "Yes" if head else "No",
-            "relationship_to_head": relation,
-            "last_verified_date": verified_on,
-            "verified_by": verified_by,
-            "notes": notes,
+            "AMJS ID": str(Ids.member),
+            "Family Code": str(family_code),
+            "Relationship to HOF": relation,
+            "Record Status": "Active" if random.random() < 0.95 else "Inactive",
+            "Name": f"{first} {surname}",
+            "Marital Status": marital,
+            "Address 1": addr1,
+            "Address 2": addr2,
+            "Address 3": addr3,
+            "Address 4": "",
+            "City": city,
+            "Post Code": pc,
+            "Country": "United Kingdom",
+            "Telephone RES": home_phone,
+            "Telephone Work": landline(area) if own_contact and age >= 22 and random.random() < 0.15 else "",
+            "Mobile": mobile() if own_contact else "",
+            "Telephone Other": mobile() if own_contact and random.random() < 0.05 else "",
+            "Email": email(first, surname) if own_contact else "",
+            "Branch": branch,
+            "Age": str(age),
+            "Tanzeem": tanzeem_for(gender, age),
+            "Date of Birth": dob.strftime("%d/%m/%Y"),
+            "Wasiyyat Number": wasiyyat_no,
+            "Wasiyyat Status": wasiyyat_status,
+            "Waqf-e-Nau Number": waqf_nau,
         })
-        next_id += random.randint(1, 37)
+        Ids.member += random.randint(1, 37)
 
-    father_first = random.choice(MALE_FIRST)
     father_dob = rand_date(30, 75)
-    grandfather = f"{random.choice(MALE_FIRST)} {surname}"
     single = random.random() < 0.15
-
-    add(father_first, "Male", father_dob, grandfather, "Single" if single else "Married", True, "Self")
+    add(random.choice(MALE_FIRST), "Male", father_dob, "Single" if single else "Married", "Self")
     if single:
-        return people, next_id
+        return people
 
-    father_name = f"{father_first} {surname}"
     mother_dob = father_dob + timedelta(days=random.randint(365, 365 * 6))
     if age_on(mother_dob) < 25:
         mother_dob = rand_date(25, 30)
-    add(random.choice(FEMALE_FIRST), "Female", mother_dob, father_name, "Married", False, "Wife")
+    add(random.choice(FEMALE_FIRST), "Female", mother_dob, "Married", "Wife")
 
     max_child_age = max(7, min(age_on(mother_dob) - 20, 35))
     for _ in range(random.randint(0, 4)):
         gender = random.choice(["Male", "Female"])
-        first = random.choice(MALE_FIRST if gender == "Male" else FEMALE_FIRST)
         dob = rand_date(7, max_child_age)
-        relation = "Son" if gender == "Male" else "Daughter"
-        add(first, gender, dob, father_name, "Single", False, relation, own_contact=age_on(dob) >= 15)
-    return people, next_id
+        add(random.choice(MALE_FIRST if gender == "Male" else FEMALE_FIRST), gender, dob,
+            "Single", "Son" if gender == "Male" else "Daughter", own_contact=age_on(dob) >= 15)
+    return people
 
 
 def main():
     members = []
-    family_no = 1
-    next_id = 10231
+    family_code = 4101
     while len(members) < TARGET_MEMBERS:
-        people, next_id = make_family(family_no, next_id)
-        members.extend(people)
-        family_no += 1
+        members.extend(make_family(family_code))
+        family_code += random.randint(1, 9)
 
     OUT_DIR.mkdir(exist_ok=True)
     csv_path = OUT_DIR / "tajneed.csv"

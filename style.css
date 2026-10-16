@@ -98,14 +98,13 @@ textarea { resize: vertical; min-height: 2.6rem; }
   background: var(--bg); padding: 0.75rem 0; z-index: 1;
 }
 .form-actions { display: flex; gap: 0.5rem; align-items: flex-end; flex-wrap: wrap; }
-label.inline { display: flex; flex-direction: column; font-size: 0.8rem; color: var(--muted); }
-label.inline input { width: 12rem; }
 
 .form-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 0.9rem 1rem; }
 .form-section-title { grid-column: 1 / -1; margin-top: 0.5rem; font-size: 0.95rem; color: var(--accent); border-bottom: 1px solid var(--border); padding-bottom: 0.25rem; }
 .field label { display: block; font-size: 0.85rem; color: var(--muted); margin-bottom: 0.2rem; }
 .field.wide { grid-column: 1 / -1; }
 .field.dirty input, .field.dirty select, .field.dirty textarea { background: var(--changed); }
+.field input[readonly] { background: var(--bg); color: var(--muted); }
 
 .empty { text-align: center; padding: 3rem 1rem; color: var(--muted); }
 
@@ -115,25 +114,38 @@ label.inline input { width: 12rem; }
 }
 .status.warn { background: #a35a00; }
 
-/* View screen */
-#view-screen { padding: 2rem; max-width: 1000px; margin: 0 auto; }
-.view-waiting { display: flex; flex-direction: column; justify-content: center; min-height: 80vh; gap: 0.5rem; }
+/* View screen - sized in em; app.js shrinks the font until it all fits on one screen */
+#view-screen { padding: 0.8em 1.1em; font-size: 20px; min-height: 0; }
+.view-waiting { display: flex; flex-direction: column; justify-content: center; min-height: 90vh; gap: 0.5rem; font-size: 1.4rem; }
 .view-waiting h1 { color: var(--text); }
-#view-name { font-size: 2.4rem; margin-bottom: 0.25rem; }
-#view-member > .muted { font-size: 1.1rem; margin-top: 0; }
-#view-updated { position: static; display: inline-block; margin-bottom: 1rem; }
-.view-section { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 1rem 1.25rem; margin-bottom: 1rem; }
-.view-section h2 { font-size: 1rem; color: var(--accent); margin-bottom: 0.75rem; }
-.view-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0.9rem 1.5rem; }
-.view-item .label { font-size: 0.9rem; color: var(--muted); }
-.view-item .value { font-size: 1.35rem; font-weight: 600; word-break: break-word; }
+.view-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 1em; flex-wrap: wrap; margin-bottom: 0.6em; }
+#view-name { font-size: 2em; line-height: 1.1; }
+.view-id { font-size: 1.05em; color: var(--muted); font-weight: 600; margin-top: 0.15em; }
+.view-head-right { text-align: right; }
+.view-head-right p { margin: 0; font-size: 0.85em; }
+.view-updated {
+  display: inline-block; background: var(--accent); color: var(--accent-text);
+  padding: 0.25em 0.7em; border-radius: 6px; font-size: 0.85em; margin-bottom: 0.3em;
+}
+.view-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.6em; }
+.view-section { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 0.6em 0.8em; }
+.view-section h2 { font-size: 0.75em; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4em; }
+.view-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.45em 0.9em; }
+.view-item .label { font-size: 0.7em; color: var(--muted); }
+.view-item .value { font-size: 1em; font-weight: 600; overflow-wrap: anywhere; line-height: 1.25; }
 .view-item .value.blank { color: var(--muted); font-weight: 400; font-style: italic; }
+.view-item .value.multiline { white-space: pre-line; }
+.view-item .value.nowrap { white-space: nowrap; overflow: hidden; }
 .view-item.wide { grid-column: 1 / -1; }
-.view-item.flash .value { animation: flash 2.5s ease-out; }
+.view-item.flash .value { animation: flash 3s ease-out; }
 @keyframes flash { from { background: var(--changed); } to { background: transparent; } }
+
+/* Portrait / narrow screens: two columns of cards */
+@media (max-aspect-ratio: 1/1) {
+  .view-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
 
 @media (max-width: 760px) {
   .edit-layout { grid-template-columns: 1fr; height: auto; }
   .list-panel { max-height: 45vh; border-right: 0; border-bottom: 1px solid var(--border); }
-  #view-screen { padding: 1rem; }
 }

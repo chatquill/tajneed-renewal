@@ -7,15 +7,16 @@ A small offline app for checking and updating members' tajneed details. It needs
 1. Double-click `index.html` to open it in your browser. Chrome or Edge works best.
 2. Click **Edit mode**.
 3. Click **Choose CSV or Excel file** and pick your tajneed file. To try the app out, use the example file `data/tajneed.csv`.
+   Your file needs the same column headers as the tajneed sheet (`AMJS ID`, `Name`, `Address 1`, ...).
 4. Click **Open view tab**. Drag that tab onto the screen the member will look at.
 
 You only need to pick the file once. The browser remembers the data after that.
 
 ## Using it
 
-- Search by name or AIMS ID. Spelling mistakes and names typed in the wrong order still work.
-- Click a member. Their details appear on the view tab for the member to check.
-- Correct anything that's wrong and click **Save**. The view tab updates straight away.
+- Search by name or AMJS ID. Spelling mistakes and names typed in the wrong order still work.
+- Click a member. Their details appear on the view tab for the member to check. Everything fits on one screen.
+- Correct anything that's wrong and click **Save**. The view tab updates straight away. Age is worked out from the Date of Birth (dd/mm/yyyy).
 - Click **Close** to clear the view tab before the next person.
 
 ## Saving your changes to the file
@@ -27,7 +28,7 @@ Export regularly. Clearing your browser data deletes any changes you haven't exp
 
 ## Example data
 
-`data/tajneed.csv` and `data/tajneed.xlsx` contain 200 made-up members. To make a new set:
+`data/tajneed.csv` and `data/tajneed.xlsx` contain about 200 made-up members. To make a new set:
 
 ```
 python3 scripts/generate_fake_data.py

@@ -1,201 +1,202 @@
-aims_id,full_name,father_or_husband_name,gender,date_of_birth,marital_status,auxiliary,majlis,region,address,postcode,phone,email,family_id,head_of_household,relationship_to_head,last_verified_date,verified_by,notes
-10231,Masroor Khan,Mahmood Khan,Male,1989-08-08,Single,Khuddam,Glasgow,Scotland,"190 Victoria Road, Glasgow, Scotland",G41 4FE,07908386379,masroor.khan1@yahoo.co.uk,F0001,Yes,Self,,,Moved recently - confirm address
-10242,Haris Shah,Shahid Shah,Male,1960-06-05,Married,Ansar,Edinburgh,Scotland,"72 London Road, Edinburgh, Scotland",G41 6ED,07781618495,haris.shah91@hotmail.co.uk,F0002,Yes,Self,2024-05-28,Tajneed Secretary,Phone number may be old
-10247,Samina Shah,Haris Shah,Female,1961-09-06,Married,Lajna,Edinburgh,Scotland,"72 London Road, Edinburgh, Scotland",G41 6ED,07131647525,samina.shah27@yahoo.co.uk,F0002,No,Wife,,,
-10265,Waseem Sheikh,Ataul Sheikh,Male,1971-06-15,Married,Ansar,Huddersfield,North East,"137 Oak Close, Huddersfield, West Yorkshire",LS8 3TR,07641395376,waseem.sheikh19@outlook.com,F0003,Yes,Self,2026-01-10,Tajneed Secretary,
-10282,Rehana Sheikh,Waseem Sheikh,Female,1973-03-26,Married,Lajna,Huddersfield,North East,"137 Oak Close, Huddersfield, West Yorkshire",LS8 3TR,07969653287,rehana.sheikh97@gmail.com,F0003,No,Wife,2025-02-27,Sadr Majlis,Phone number may be old
-10286,Yusuf Dogar,Ahmad Dogar,Male,1974-04-22,Married,Ansar,Southall,London West,"109 Mill Lane, Southall, London",TW3 7RZ,07451462704,yusuf.dogar65@hotmail.co.uk,F0004,Yes,Self,,,Moved recently - confirm address
-10293,Noor Dogar,Yusuf Dogar,Female,1980-03-08,Married,Lajna,Southall,London West,"109 Mill Lane, Southall, London",TW3 7RZ,07893252880,noor.dogar63@yahoo.co.uk,F0004,No,Wife,,,Phone number may be old
-10295,Tahir Bajwa,Hamid Bajwa,Male,1963-01-12,Married,Ansar,Farnham,Islamabad,"15 Church Street, Farnham, Surrey",GU1 2DU,07963834657,tahir.bajwa16@outlook.com,F0005,Yes,Self,2026-03-16,Sadr Majlis,Moved recently - confirm address
-10311,Ayesha Bajwa,Tahir Bajwa,Female,1965-04-16,Married,Lajna,Farnham,Islamabad,"15 Church Street, Farnham, Surrey",GU1 2DU,07839301031,ayesha.bajwa43@gmail.com,F0005,No,Wife,,,Moved recently - confirm address
-10316,Waseem Bajwa,Tahir Bajwa,Male,2013-07-11,Single,Atfal,Farnham,Islamabad,"15 Church Street, Farnham, Surrey",GU1 2DU,,,F0005,No,Son,,,
-10353,Rehana Bajwa,Tahir Bajwa,Female,2012-12-19,Single,Nasirat,Farnham,Islamabad,"15 Church Street, Farnham, Surrey",GU1 2DU,,,F0005,No,Daughter,2026-02-19,Tajneed Secretary,
-10381,Khadija Bajwa,Tahir Bajwa,Female,2010-03-11,Single,Lajna,Farnham,Islamabad,"15 Church Street, Farnham, Surrey",GU1 2DU,07106513338,khadija.bajwa18@outlook.com,F0005,No,Daughter,2024-08-16,Tajneed Secretary,Phone number may be old
-10409,Waseem Bajwa,Tahir Bajwa,Male,2012-07-02,Single,Atfal,Farnham,Islamabad,"15 Church Street, Farnham, Surrey",GU1 2DU,,,F0005,No,Son,,,
-10438,Zain Ahmad,Ibrahim Ahmad,Male,1995-04-27,Married,Khuddam,Leeds,North East,"167 High Street, Leeds, West Yorkshire",LS8 2JG,07064746872,zain.ahmad38@hotmail.co.uk,F0006,Yes,Self,2026-07-03,Qaid Majlis,
-10452,Aleena Ahmad,Zain Ahmad,Female,1996-08-23,Married,Lajna,Leeds,North East,"167 High Street, Leeds, West Yorkshire",LS8 2JG,07097882081,aleena.ahmad9@hotmail.co.uk,F0006,No,Wife,2026-07-01,Sadr Majlis,
-10457,Fatima Ahmad,Zain Ahmad,Female,2018-02-17,Single,Nasirat,Leeds,North East,"167 High Street, Leeds, West Yorkshire",LS8 2JG,,,F0006,No,Daughter,2026-07-23,Tajneed Secretary,
-10494,Danyal Cheema,Mubarak Cheema,Male,1963-06-29,Married,Ansar,Bradford,North East,"53 Elm Grove, Bradford, West Yorkshire",HD1 6JL,07991183842,danyal.cheema9@yahoo.co.uk,F0007,Yes,Self,2026-06-19,Tajneed Secretary,
-10510,Farah Cheema,Danyal Cheema,Female,1966-07-24,Married,Lajna,Bradford,North East,"53 Elm Grove, Bradford, West Yorkshire",HD1 6JL,07498084124,farah.cheema14@gmail.com,F0007,No,Wife,,,Moved recently - confirm address
-10546,Farah Cheema,Danyal Cheema,Female,2018-11-18,Single,Nasirat,Bradford,North East,"53 Elm Grove, Bradford, West Yorkshire",HD1 6JL,,,F0007,No,Daughter,,,
-10560,Mahmood Rehman,Rashid Rehman,Male,1952-01-26,Married,Ansar,Edinburgh,Scotland,"126 Victoria Road, Edinburgh, Scotland",G41 2SL,07786801128,mahmood.rehman48@gmail.com,F0008,Yes,Self,2025-12-07,Qaid Majlis,Phone number may be old
-10596,Khadija Rehman,Mahmood Rehman,Female,1953-11-24,Married,Lajna,Edinburgh,Scotland,"126 Victoria Road, Edinburgh, Scotland",G41 2SL,07505331586,khadija.rehman31@hotmail.co.uk,F0008,No,Wife,,,
-10607,Amatul Rehman,Mahmood Rehman,Female,1999-10-18,Single,Lajna,Edinburgh,Scotland,"126 Victoria Road, Edinburgh, Scotland",G41 2SL,07342160733,amatul.rehman45@outlook.com,F0008,No,Daughter,2025-09-26,Zaeem,Phone number may be old
-10627,Waseem Khan,Danyal Khan,Male,1983-04-03,Married,Ansar,Southall,London West,"169 Church Street, Southall, London",UB1 6LD,07429401965,waseem.khan56@yahoo.co.uk,F0009,Yes,Self,2025-09-27,Tajneed Secretary,
-10660,Amina Khan,Waseem Khan,Female,1984-11-24,Married,Lajna,Southall,London West,"169 Church Street, Southall, London",UB1 6LD,07608835615,amina.khan85@yahoo.co.uk,F0009,No,Wife,2026-02-19,Sadr Majlis,
-10668,Samina Khan,Waseem Khan,Female,2014-11-28,Single,Nasirat,Southall,London West,"169 Church Street, Southall, London",UB1 6LD,,,F0009,No,Daughter,,,Phone number may be old
-10687,Faisal Khan,Waseem Khan,Male,2015-03-07,Single,Atfal,Southall,London West,"169 Church Street, Southall, London",UB1 6LD,,,F0009,No,Son,2025-08-09,Qaid Majlis,Moved recently - confirm address
-10724,Ataul Latif,Hamza Latif,Male,1993-06-19,Married,Khuddam,Farnham,Islamabad,"214 Mosque Lane, Farnham, Surrey",GU9 5HS,07214895134,ataul.latif26@hotmail.co.uk,F0010,Yes,Self,,,
-10734,Sadia Latif,Ataul Latif,Female,1994-08-08,Married,Lajna,Farnham,Islamabad,"214 Mosque Lane, Farnham, Surrey",GU9 5HS,07917693676,sadia.latif19@hotmail.co.uk,F0010,No,Wife,,,
-10735,Zafar Sheikh,Yusuf Sheikh,Male,1962-08-21,Single,Ansar,Birmingham West,Midlands,"206 Oak Close, Birmingham West, West Midlands",CV1 8BX,07986872774,zafar.sheikh82@hotmail.co.uk,F0011,Yes,Self,2025-03-07,Sadr Majlis,
-10753,Waseem Ghuman,Ataul Ghuman,Male,1981-11-18,Married,Ansar,Bradford,North East,"62 Victoria Road, Bradford, West Yorkshire",BD3 2NJ,07362316658,waseem.ghuman54@outlook.com,F0012,Yes,Self,,,
-10757,Khadija Ghuman,Waseem Ghuman,Female,1984-01-15,Married,Lajna,Bradford,North East,"62 Victoria Road, Bradford, West Yorkshire",BD3 2NJ,07670546688,khadija.ghuman63@hotmail.co.uk,F0012,No,Wife,2024-07-05,Tajneed Secretary,Moved recently - confirm address
-10772,Rabia Ghuman,Waseem Ghuman,Female,2005-05-26,Single,Lajna,Bradford,North East,"62 Victoria Road, Bradford, West Yorkshire",BD3 2NJ,07272980699,rabia.ghuman11@gmail.com,F0012,No,Daughter,2024-10-17,Zaeem,Phone number may be old
-10800,Yusuf Ghuman,Waseem Ghuman,Male,2008-10-28,Single,Khuddam,Bradford,North East,"62 Victoria Road, Bradford, West Yorkshire",BD3 2NJ,07537556464,yusuf.ghuman61@gmail.com,F0012,No,Son,,,
-10802,Faisal Mirza,Khalid Mirza,Male,1953-07-30,Married,Ansar,Glasgow,Scotland,"58 Elm Grove, Glasgow, Scotland",G41 1AJ,07452991241,faisal.mirza40@gmail.com,F0013,Yes,Self,2026-05-07,Qaid Majlis,
-10839,Amina Mirza,Faisal Mirza,Female,1958-05-17,Married,Lajna,Glasgow,Scotland,"58 Elm Grove, Glasgow, Scotland",G41 1AJ,07931491905,amina.mirza85@outlook.com,F0013,No,Wife,2024-08-30,Qaid Majlis,
-10863,Sajid Shah,Khalid Shah,Male,1992-12-29,Married,Khuddam,Huddersfield,North East,"4 Grange Road, Huddersfield, West Yorkshire",BD3 8ES,07877694531,sajid.shah58@yahoo.co.uk,F0014,Yes,Self,2024-11-04,Sadr Majlis,Moved recently - confirm address
-10879,Sumaira Shah,Sajid Shah,Female,1998-03-14,Married,Lajna,Huddersfield,North East,"4 Grange Road, Huddersfield, West Yorkshire",BD3 8ES,07075273545,sumaira.shah77@yahoo.co.uk,F0014,No,Wife,2024-10-17,Zaeem,
-10897,Faisal Shah,Sajid Shah,Male,2018-11-13,Single,Atfal,Huddersfield,North East,"4 Grange Road, Huddersfield, West Yorkshire",BD3 8ES,,,F0014,No,Son,,,
-10929,Ibrahim Shah,Sajid Shah,Male,2019-08-27,Single,Atfal,Huddersfield,North East,"4 Grange Road, Huddersfield, West Yorkshire",BD3 8ES,,,F0014,No,Son,2025-05-31,Tajneed Secretary,
-10948,Danyal Shah,Sajid Shah,Male,2019-09-20,Single,Atfal,Huddersfield,North East,"4 Grange Road, Huddersfield, West Yorkshire",BD3 8ES,,,F0014,No,Son,,,Phone number may be old
-10972,Iqra Shah,Sajid Shah,Female,2019-06-29,Single,Nasirat,Huddersfield,North East,"4 Grange Road, Huddersfield, West Yorkshire",BD3 8ES,,,F0014,No,Daughter,,,Phone number may be old
-11008,Faisal Tahir,Rafiq Tahir,Male,1980-01-22,Married,Ansar,Farnham,Islamabad,"117 Victoria Road, Farnham, Surrey",GU9 5JE,07374989413,faisal.tahir30@yahoo.co.uk,F0015,Yes,Self,2024-09-25,Qaid Majlis,
-11032,Farah Tahir,Faisal Tahir,Female,1982-01-23,Married,Lajna,Farnham,Islamabad,"117 Victoria Road, Farnham, Surrey",GU9 5JE,07240084271,farah.tahir74@gmail.com,F0015,No,Wife,,,Moved recently - confirm address
-11051,Sumaira Tahir,Faisal Tahir,Female,2010-05-23,Single,Lajna,Farnham,Islamabad,"117 Victoria Road, Farnham, Surrey",GU9 5JE,07471167190,sumaira.tahir20@hotmail.co.uk,F0015,No,Daughter,,,
-11088,Ayesha Tahir,Faisal Tahir,Female,2008-04-25,Single,Lajna,Farnham,Islamabad,"117 Victoria Road, Farnham, Surrey",GU9 5JE,07999386774,ayesha.tahir40@outlook.com,F0015,No,Daughter,,,
-11125,Bashir Tahir,Faisal Tahir,Male,2007-05-30,Single,Khuddam,Farnham,Islamabad,"117 Victoria Road, Farnham, Surrey",GU9 5JE,07328120679,bashir.tahir38@outlook.com,F0015,No,Son,2025-12-05,Tajneed Secretary,
-11128,Faisal Tahir,Rafiq Tahir,Male,1989-11-21,Married,Khuddam,Hayes,London West,"73 Oak Close, Hayes, London",UB1 2JL,07024994717,faisal.tahir90@yahoo.co.uk,F0016,Yes,Self,2025-12-03,Qaid Majlis,
-11154,Mahira Tahir,Faisal Tahir,Female,1992-05-31,Married,Lajna,Hayes,London West,"73 Oak Close, Hayes, London",UB1 2JL,07065940139,mahira.tahir98@gmail.com,F0016,No,Wife,2025-06-10,Tajneed Secretary,Moved recently - confirm address
-11172,Imran Tahir,Faisal Tahir,Male,2018-01-10,Single,Atfal,Hayes,London West,"73 Oak Close, Hayes, London",UB1 2JL,,,F0016,No,Son,2025-06-06,Sadr Majlis,
-11200,Ayesha Tahir,Faisal Tahir,Female,2018-01-08,Single,Nasirat,Hayes,London West,"73 Oak Close, Hayes, London",UB1 2JL,,,F0016,No,Daughter,,,
-11221,Tariq Tahir,Faisal Tahir,Male,2016-06-12,Single,Atfal,Hayes,London West,"73 Oak Close, Hayes, London",UB1 2JL,,,F0016,No,Son,2025-04-12,Sadr Majlis,Phone number may be old
-11247,Yusuf Tahir,Faisal Tahir,Male,2013-09-26,Single,Atfal,Hayes,London West,"73 Oak Close, Hayes, London",UB1 2JL,,,F0016,No,Son,,,
-11255,Faisal Khan,Ismail Khan,Male,1984-03-16,Married,Ansar,Coventry,Midlands,"169 Grange Road, Coventry, West Midlands",CV1 8SB,07247710932,faisal.khan71@yahoo.co.uk,F0017,Yes,Self,2026-02-05,Sadr Majlis,Moved recently - confirm address
-11256,Khadija Khan,Faisal Khan,Female,1988-04-20,Married,Lajna,Coventry,Midlands,"169 Grange Road, Coventry, West Midlands",CV1 8SB,07712748467,khadija.khan32@outlook.com,F0017,No,Wife,,,
-11286,Haris Khan,Faisal Khan,Male,2010-11-20,Single,Khuddam,Coventry,Midlands,"169 Grange Road, Coventry, West Midlands",CV1 8SB,07465840449,haris.khan20@outlook.com,F0017,No,Son,2025-03-30,Qaid Majlis,
-11315,Sana Khan,Faisal Khan,Female,2012-06-23,Single,Nasirat,Coventry,Midlands,"169 Grange Road, Coventry, West Midlands",CV1 8SB,,,F0017,No,Daughter,2025-02-22,Zaeem,
-11336,Zafar Khan,Faisal Khan,Male,2015-03-01,Single,Atfal,Coventry,Midlands,"169 Grange Road, Coventry, West Midlands",CV1 8SB,,,F0017,No,Son,2024-06-29,Zaeem,
-11357,Tahira Khan,Faisal Khan,Female,2018-12-29,Single,Nasirat,Coventry,Midlands,"169 Grange Road, Coventry, West Midlands",CV1 8SB,,,F0017,No,Daughter,2025-08-02,Qaid Majlis,
-11360,Khalid Chaudhry,Khalid Chaudhry,Male,1988-07-13,Single,Khuddam,Hayes,London West,"217 Queens Road, Hayes, London",TW3 9TA,07615865780,khalid.chaudhry31@gmail.com,F0018,Yes,Self,2025-12-04,Sadr Majlis,Moved recently - confirm address
-11379,Mubarak Javed,Mahmood Javed,Male,1954-05-07,Married,Ansar,Hounslow North,London West,"26 Kings Avenue, Hounslow North, London",UB3 2TG,07562386922,mubarak.javed11@hotmail.co.uk,F0019,Yes,Self,,,
-11404,Samina Javed,Mubarak Javed,Female,1958-10-27,Married,Lajna,Hounslow North,London West,"26 Kings Avenue, Hounslow North, London",UB3 2TG,07237474074,samina.javed10@hotmail.co.uk,F0019,No,Wife,,,Moved recently - confirm address
-11433,Noor Javed,Mubarak Javed,Female,2010-10-13,Single,Lajna,Hounslow North,London West,"26 Kings Avenue, Hounslow North, London",UB3 2TG,07671369594,noor.javed3@yahoo.co.uk,F0019,No,Daughter,2025-05-22,Sadr Majlis,
-11459,Amatul Javed,Mubarak Javed,Female,2017-02-19,Single,Nasirat,Hounslow North,London West,"26 Kings Avenue, Hounslow North, London",UB3 2TG,,,F0019,No,Daughter,2024-06-27,Tajneed Secretary,Moved recently - confirm address
-11491,Hamid Bhatti,Mahmood Bhatti,Male,1960-06-19,Married,Ansar,Tilford,Islamabad,"206 Station Road, Tilford, Surrey",GU10 4ZL,07214562328,hamid.bhatti68@yahoo.co.uk,F0020,Yes,Self,2025-01-16,Sadr Majlis,Phone number may be old
-11524,Zainab Bhatti,Hamid Bhatti,Female,1962-12-29,Married,Lajna,Tilford,Islamabad,"206 Station Road, Tilford, Surrey",GU10 4ZL,07451712368,zainab.bhatti12@yahoo.co.uk,F0020,No,Wife,,,
-11550,Sajid Chaudhry,Bilal Chaudhry,Male,1961-06-21,Married,Ansar,Guildford,Islamabad,"117 Station Road, Guildford, Surrey",GU1 5YR,07317461200,sajid.chaudhry64@yahoo.co.uk,F0021,Yes,Self,2025-02-04,Sadr Majlis,Moved recently - confirm address
-11558,Rehana Chaudhry,Sajid Chaudhry,Female,1963-01-06,Married,Lajna,Guildford,Islamabad,"117 Station Road, Guildford, Surrey",GU1 5YR,07586926179,rehana.chaudhry36@outlook.com,F0021,No,Wife,2026-04-16,Zaeem,
-11561,Hamza Chaudhry,Sajid Chaudhry,Male,2011-09-12,Single,Khuddam,Guildford,Islamabad,"117 Station Road, Guildford, Surrey",GU1 5YR,07585064317,hamza.chaudhry85@gmail.com,F0021,No,Son,2025-08-26,Tajneed Secretary,Phone number may be old
-11575,Nasir Chaudhry,Sajid Chaudhry,Male,2006-09-17,Single,Khuddam,Guildford,Islamabad,"117 Station Road, Guildford, Surrey",GU1 5YR,07931839335,nasir.chaudhry77@hotmail.co.uk,F0021,No,Son,,,
-11576,Ahmad Malik,Zafar Malik,Male,1983-11-21,Married,Ansar,Tilford,Islamabad,"139 Victoria Road, Tilford, Surrey",GU10 2AF,07026811775,ahmad.malik58@gmail.com,F0022,Yes,Self,,,
-11609,Hafsa Malik,Ahmad Malik,Female,1986-02-16,Married,Lajna,Tilford,Islamabad,"139 Victoria Road, Tilford, Surrey",GU10 2AF,07847007661,hafsa.malik92@outlook.com,F0022,No,Wife,,,Phone number may be old
-11638,Ataul Bhatti,Saleem Bhatti,Male,1985-12-03,Married,Ansar,Mitcham,London South,"38 Gressenhall Road, Mitcham, London",SM4 5ZY,07836736576,ataul.bhatti94@outlook.com,F0023,Yes,Self,2026-05-23,Tajneed Secretary,Phone number may be old
-11645,Khadija Bhatti,Ataul Bhatti,Female,1988-09-03,Married,Lajna,Mitcham,London South,"38 Gressenhall Road, Mitcham, London",SM4 5ZY,07527111161,khadija.bhatti17@yahoo.co.uk,F0023,No,Wife,,,
-11681,Nasir Latif,Mubarak Latif,Male,1977-07-22,Married,Ansar,Huddersfield,North East,"85 Elm Grove, Huddersfield, West Yorkshire",LS8 7QS,07731585149,nasir.latif55@hotmail.co.uk,F0024,Yes,Self,2026-01-27,Qaid Majlis,Phone number may be old
-11717,Hafsa Latif,Nasir Latif,Female,1982-11-09,Married,Lajna,Huddersfield,North East,"85 Elm Grove, Huddersfield, West Yorkshire",LS8 7QS,07402445502,hafsa.latif73@hotmail.co.uk,F0024,No,Wife,2024-11-12,Tajneed Secretary,Moved recently - confirm address
-11743,Rashid Butt,Sajid Butt,Male,1965-11-14,Married,Ansar,Hounslow North,London West,"192 High Street, Hounslow North, London",TW3 7ST,07910229014,rashid.butt85@outlook.com,F0025,Yes,Self,,,Moved recently - confirm address
-11771,Hafsa Butt,Rashid Butt,Female,1969-08-04,Married,Lajna,Hounslow North,London West,"192 High Street, Hounslow North, London",TW3 7ST,07156149784,hafsa.butt29@gmail.com,F0025,No,Wife,2025-11-26,Qaid Majlis,Moved recently - confirm address
-11797,Ahmad Butt,Rashid Butt,Male,2000-12-02,Single,Khuddam,Hounslow North,London West,"192 High Street, Hounslow North, London",TW3 7ST,07244510762,ahmad.butt49@hotmail.co.uk,F0025,No,Son,,,
-11832,Shahid Butt,Rashid Butt,Male,1994-12-25,Single,Khuddam,Hounslow North,London West,"192 High Street, Hounslow North, London",TW3 7ST,07071596966,shahid.butt15@yahoo.co.uk,F0025,No,Son,2024-08-03,Tajneed Secretary,
-11858,Ataul Butt,Rashid Butt,Male,1999-06-17,Single,Khuddam,Hounslow North,London West,"192 High Street, Hounslow North, London",TW3 7ST,07516136968,ataul.butt51@gmail.com,F0025,No,Son,2024-12-08,Zaeem,Phone number may be old
-11878,Rehana Butt,Rashid Butt,Female,2006-09-09,Single,Lajna,Hounslow North,London West,"192 High Street, Hounslow North, London",TW3 7ST,07835523124,rehana.butt23@hotmail.co.uk,F0025,No,Daughter,2026-06-15,Tajneed Secretary,Moved recently - confirm address
-11888,Hamza Sheikh,Ataul Sheikh,Male,1980-09-29,Married,Ansar,Glasgow,Scotland,"198 Elm Grove, Glasgow, Scotland",EH7 8YY,07449058147,hamza.sheikh5@outlook.com,F0026,Yes,Self,,,
-11892,Farah Sheikh,Hamza Sheikh,Female,1983-10-24,Married,Lajna,Glasgow,Scotland,"198 Elm Grove, Glasgow, Scotland",EH7 8YY,07998679807,farah.sheikh42@hotmail.co.uk,F0026,No,Wife,,,
-11923,Nasir Sheikh,Hamza Sheikh,Male,2014-11-08,Single,Atfal,Glasgow,Scotland,"198 Elm Grove, Glasgow, Scotland",EH7 8YY,,,F0026,No,Son,,,
-11929,Mahmood Sheikh,Hamza Sheikh,Male,2010-04-22,Single,Khuddam,Glasgow,Scotland,"198 Elm Grove, Glasgow, Scotland",EH7 8YY,07546659051,mahmood.sheikh13@yahoo.co.uk,F0026,No,Son,2025-06-09,Qaid Majlis,
-11965,Farah Sheikh,Hamza Sheikh,Female,2010-05-27,Single,Lajna,Glasgow,Scotland,"198 Elm Grove, Glasgow, Scotland",EH7 8YY,07192546291,farah.sheikh72@yahoo.co.uk,F0026,No,Daughter,2024-10-29,Qaid Majlis,
-11990,Maryam Sheikh,Hamza Sheikh,Female,2016-07-22,Single,Nasirat,Glasgow,Scotland,"198 Elm Grove, Glasgow, Scotland",EH7 8YY,,,F0026,No,Daughter,,,Phone number may be old
-12018,Faisal Khan,Hamid Khan,Male,1972-01-28,Married,Ansar,Bradford,North East,"93 Victoria Road, Bradford, West Yorkshire",LS8 4PU,07888059296,faisal.khan21@hotmail.co.uk,F0027,Yes,Self,,,
-12030,Tahira Khan,Faisal Khan,Female,1977-09-25,Married,Lajna,Bradford,North East,"93 Victoria Road, Bradford, West Yorkshire",LS8 4PU,07706537947,tahira.khan69@hotmail.co.uk,F0027,No,Wife,2024-05-26,Qaid Majlis,Phone number may be old
-12046,Nusrat Khan,Faisal Khan,Female,2005-12-31,Single,Lajna,Bradford,North East,"93 Victoria Road, Bradford, West Yorkshire",LS8 4PU,07468862392,nusrat.khan7@yahoo.co.uk,F0027,No,Daughter,2025-01-25,Zaeem,
-12077,Iqra Khan,Faisal Khan,Female,2018-09-14,Single,Nasirat,Bradford,North East,"93 Victoria Road, Bradford, West Yorkshire",LS8 4PU,,,F0027,No,Daughter,,,Moved recently - confirm address
-12085,Bilal Sheikh,Shahid Sheikh,Male,1992-03-22,Married,Khuddam,Tilford,Islamabad,"70 Queens Road, Tilford, Surrey",GU1 3SD,07615305152,bilal.sheikh5@hotmail.co.uk,F0028,Yes,Self,2025-07-23,Sadr Majlis,
-12104,Rabia Sheikh,Bilal Sheikh,Female,1997-11-15,Married,Lajna,Tilford,Islamabad,"70 Queens Road, Tilford, Surrey",GU1 3SD,07901043289,rabia.sheikh15@outlook.com,F0028,No,Wife,2026-04-12,Zaeem,
-12123,Fatima Sheikh,Bilal Sheikh,Female,2018-10-25,Single,Nasirat,Tilford,Islamabad,"70 Queens Road, Tilford, Surrey",GU1 3SD,,,F0028,No,Daughter,,,Phone number may be old
-12153,Khalid Hussain,Ayaan Hussain,Male,1977-11-18,Single,Ansar,Baitul Futuh,London South,"153 High Street, Baitul Futuh, London",SM4 9YJ,07185188888,khalid.hussain50@gmail.com,F0029,Yes,Self,2025-01-25,Zaeem,
-12184,Zafar Mirza,Rashid Mirza,Male,1961-01-18,Single,Ansar,Tooting,London South,"65 Oak Close, Tooting, London",SM4 6DQ,07772217043,zafar.mirza26@gmail.com,F0030,Yes,Self,2025-09-20,Qaid Majlis,Phone number may be old
-12187,Faisal Rehman,Shahid Rehman,Male,1977-06-02,Married,Ansar,Farnham,Islamabad,"102 Grange Road, Farnham, Surrey",GU1 8LB,07541566765,faisal.rehman64@hotmail.co.uk,F0031,Yes,Self,,,Phone number may be old
-12219,Mahira Rehman,Faisal Rehman,Female,1980-06-23,Married,Lajna,Farnham,Islamabad,"102 Grange Road, Farnham, Surrey",GU1 8LB,07616928451,mahira.rehman42@gmail.com,F0031,No,Wife,,,
-12238,Hafsa Rehman,Faisal Rehman,Female,2016-11-05,Single,Nasirat,Farnham,Islamabad,"102 Grange Road, Farnham, Surrey",GU1 8LB,,,F0031,No,Daughter,2024-09-25,Zaeem,
-12267,Shahid Rehman,Faisal Rehman,Male,2014-07-16,Single,Atfal,Farnham,Islamabad,"102 Grange Road, Farnham, Surrey",GU1 8LB,,,F0031,No,Son,2025-11-24,Tajneed Secretary,
-12293,Mahmood Nasir,Tahir Nasir,Male,1963-01-28,Married,Ansar,Guildford,Islamabad,"174 London Road, Guildford, Surrey",GU10 3ZT,07092755719,mahmood.nasir68@hotmail.co.uk,F0032,Yes,Self,2025-08-27,Zaeem,Moved recently - confirm address
-12317,Hina Nasir,Mahmood Nasir,Female,1966-04-22,Married,Lajna,Guildford,Islamabad,"174 London Road, Guildford, Surrey",GU10 3ZT,07278681447,hina.nasir79@hotmail.co.uk,F0032,No,Wife,2025-12-20,Tajneed Secretary,
-12336,Rafiq Nasir,Mahmood Nasir,Male,1997-11-02,Single,Khuddam,Guildford,Islamabad,"174 London Road, Guildford, Surrey",GU10 3ZT,07715518844,rafiq.nasir92@hotmail.co.uk,F0032,No,Son,2025-05-27,Qaid Majlis,Phone number may be old
-12348,Mahira Nasir,Mahmood Nasir,Female,2001-10-22,Single,Lajna,Guildford,Islamabad,"174 London Road, Guildford, Surrey",GU10 3ZT,07237058957,mahira.nasir79@hotmail.co.uk,F0032,No,Daughter,,,
-12354,Mubarak Nasir,Mahmood Nasir,Male,2009-08-11,Single,Khuddam,Guildford,Islamabad,"174 London Road, Guildford, Surrey",GU10 3ZT,07669125177,mubarak.nasir17@yahoo.co.uk,F0032,No,Son,2024-08-26,Zaeem,Moved recently - confirm address
-12390,Mubarak Malik,Tariq Malik,Male,1966-07-10,Married,Ansar,Glasgow,Scotland,"111 High Street, Glasgow, Scotland",G41 2WF,07438424981,mubarak.malik76@hotmail.co.uk,F0033,Yes,Self,2025-09-12,Sadr Majlis,
-12400,Samina Malik,Mubarak Malik,Female,1968-06-24,Married,Lajna,Glasgow,Scotland,"111 High Street, Glasgow, Scotland",G41 2WF,07001094396,samina.malik64@gmail.com,F0033,No,Wife,2024-12-21,Sadr Majlis,Moved recently - confirm address
-12435,Rabia Malik,Mubarak Malik,Female,2002-09-26,Single,Lajna,Glasgow,Scotland,"111 High Street, Glasgow, Scotland",G41 2WF,07710276773,rabia.malik78@yahoo.co.uk,F0033,No,Daughter,2024-09-30,Zaeem,
-12445,Tahira Malik,Mubarak Malik,Female,2006-01-27,Single,Lajna,Glasgow,Scotland,"111 High Street, Glasgow, Scotland",G41 2WF,07588153714,tahira.malik32@outlook.com,F0033,No,Daughter,2025-09-13,Zaeem,
-12455,Ataul Warraich,Faisal Warraich,Male,1979-10-22,Married,Ansar,Baitul Futuh,London South,"99 Grange Road, Baitul Futuh, London",SW17 7JG,07470168733,ataul.warraich7@yahoo.co.uk,F0034,Yes,Self,2025-03-23,Zaeem,
-12459,Rabia Warraich,Ataul Warraich,Female,1982-05-20,Married,Lajna,Baitul Futuh,London South,"99 Grange Road, Baitul Futuh, London",SW17 7JG,07801624565,rabia.warraich52@gmail.com,F0034,No,Wife,2024-04-21,Zaeem,
-12463,Sajid Warraich,Ataul Warraich,Male,2015-02-27,Single,Atfal,Baitul Futuh,London South,"99 Grange Road, Baitul Futuh, London",SW17 7JG,,,F0034,No,Son,,,
-12496,Iqra Warraich,Ataul Warraich,Female,2009-01-08,Single,Lajna,Baitul Futuh,London South,"99 Grange Road, Baitul Futuh, London",SW17 7JG,07165585239,iqra.warraich65@outlook.com,F0034,No,Daughter,2024-12-02,Tajneed Secretary,
-12499,Mahmood Warraich,Ataul Warraich,Male,2005-10-27,Single,Khuddam,Baitul Futuh,London South,"99 Grange Road, Baitul Futuh, London",SW17 7JG,07729825952,mahmood.warraich79@outlook.com,F0034,No,Son,2024-05-31,Zaeem,Moved recently - confirm address
-12519,Mahira Warraich,Ataul Warraich,Female,2014-03-07,Single,Nasirat,Baitul Futuh,London South,"99 Grange Road, Baitul Futuh, London",SW17 7JG,,,F0034,No,Daughter,2024-09-06,Sadr Majlis,
-12521,Ibrahim Dogar,Bilal Dogar,Male,1975-07-28,Married,Ansar,Farnham,Islamabad,"29 Park Avenue, Farnham, Surrey",GU1 5AZ,07309130756,ibrahim.dogar53@hotmail.co.uk,F0035,Yes,Self,2026-03-11,Zaeem,
-12535,Mahira Dogar,Ibrahim Dogar,Female,1978-11-14,Married,Lajna,Farnham,Islamabad,"29 Park Avenue, Farnham, Surrey",GU1 5AZ,07283857865,mahira.dogar59@hotmail.co.uk,F0035,No,Wife,2025-05-07,Tajneed Secretary,Phone number may be old
-12570,Samina Dogar,Ibrahim Dogar,Female,2017-01-24,Single,Nasirat,Farnham,Islamabad,"29 Park Avenue, Farnham, Surrey",GU1 5AZ,,,F0035,No,Daughter,2024-10-04,Sadr Majlis,Moved recently - confirm address
-12601,Zafar Dogar,Ibrahim Dogar,Male,2006-01-03,Single,Khuddam,Farnham,Islamabad,"29 Park Avenue, Farnham, Surrey",GU1 5AZ,07375758441,zafar.dogar51@outlook.com,F0035,No,Son,2026-01-14,Sadr Majlis,
-12624,Ibrahim Ahmad,Faisal Ahmad,Male,1970-12-12,Married,Ansar,Hayes,London West,"74 Oak Close, Hayes, London",TW3 6TL,07421993308,ibrahim.ahmad82@hotmail.co.uk,F0036,Yes,Self,,,Moved recently - confirm address
-12639,Fatima Ahmad,Ibrahim Ahmad,Female,1972-03-28,Married,Lajna,Hayes,London West,"74 Oak Close, Hayes, London",TW3 6TL,07208267734,fatima.ahmad37@yahoo.co.uk,F0036,No,Wife,2024-08-28,Zaeem,
-12643,Mahmood Latif,Ismail Latif,Male,1987-05-14,Married,Khuddam,Glasgow,Scotland,"190 Oak Close, Glasgow, Scotland",G41 3SG,07499154788,mahmood.latif18@outlook.com,F0037,Yes,Self,2025-11-09,Tajneed Secretary,
-12676,Shazia Latif,Mahmood Latif,Female,1990-12-27,Married,Lajna,Glasgow,Scotland,"190 Oak Close, Glasgow, Scotland",G41 3SG,07527420549,shazia.latif23@hotmail.co.uk,F0037,No,Wife,,,
-12702,Ayesha Latif,Mahmood Latif,Female,2016-03-30,Single,Nasirat,Glasgow,Scotland,"190 Oak Close, Glasgow, Scotland",G41 3SG,,,F0037,No,Daughter,2026-02-24,Qaid Majlis,
-12723,Ahmad Latif,Mahmood Latif,Male,2014-09-04,Single,Atfal,Glasgow,Scotland,"190 Oak Close, Glasgow, Scotland",G41 3SG,,,F0037,No,Son,2025-06-01,Sadr Majlis,
-12743,Naeem Latif,Mahmood Latif,Male,2019-01-30,Single,Atfal,Glasgow,Scotland,"190 Oak Close, Glasgow, Scotland",G41 3SG,,,F0037,No,Son,2026-01-03,Tajneed Secretary,Phone number may be old
-12751,Sajid Sheikh,Bilal Sheikh,Male,1971-07-25,Married,Ansar,Wolverhampton,Midlands,"104 Elm Grove, Wolverhampton, West Midlands",CV1 5EN,07878339187,sajid.sheikh10@yahoo.co.uk,F0038,Yes,Self,2025-05-24,Sadr Majlis,
-12788,Sadia Sheikh,Sajid Sheikh,Female,1973-03-10,Married,Lajna,Wolverhampton,Midlands,"104 Elm Grove, Wolverhampton, West Midlands",CV1 5EN,07822587139,sadia.sheikh12@outlook.com,F0038,No,Wife,2025-04-02,Qaid Majlis,Moved recently - confirm address
-12821,Yusuf Sheikh,Sajid Sheikh,Male,1999-09-01,Single,Khuddam,Wolverhampton,Midlands,"104 Elm Grove, Wolverhampton, West Midlands",CV1 5EN,07740640391,yusuf.sheikh55@gmail.com,F0038,No,Son,2025-05-22,Tajneed Secretary,Moved recently - confirm address
-12844,Nasir Sheikh,Sajid Sheikh,Male,1996-11-04,Single,Khuddam,Wolverhampton,Midlands,"104 Elm Grove, Wolverhampton, West Midlands",CV1 5EN,07622656766,nasir.sheikh88@gmail.com,F0038,No,Son,2025-05-06,Tajneed Secretary,
-12879,Shahid Sheikh,Sajid Sheikh,Male,1999-01-26,Single,Khuddam,Wolverhampton,Midlands,"104 Elm Grove, Wolverhampton, West Midlands",CV1 5EN,07682300478,shahid.sheikh69@outlook.com,F0038,No,Son,,,Moved recently - confirm address
-12904,Zain Iqbal,Zafar Iqbal,Male,1953-02-25,Married,Ansar,Southall,London West,"89 London Road, Southall, London",UB1 4EB,07790306738,zain.iqbal97@hotmail.co.uk,F0039,Yes,Self,,,
-12908,Mahira Iqbal,Zain Iqbal,Female,1954-12-08,Married,Lajna,Southall,London West,"89 London Road, Southall, London",UB1 4EB,07953428364,mahira.iqbal8@yahoo.co.uk,F0039,No,Wife,2026-01-05,Sadr Majlis,Moved recently - confirm address
-12944,Ayaan Iqbal,Zain Iqbal,Male,2016-09-07,Single,Atfal,Southall,London West,"89 London Road, Southall, London",UB1 4EB,,,F0039,No,Son,2025-09-14,Zaeem,Moved recently - confirm address
-12965,Khadija Iqbal,Zain Iqbal,Female,1998-06-11,Single,Lajna,Southall,London West,"89 London Road, Southall, London",UB1 4EB,07873342708,khadija.iqbal54@outlook.com,F0039,No,Daughter,,,
-13001,Haris Iqbal,Zain Iqbal,Male,2002-08-23,Single,Khuddam,Southall,London West,"89 London Road, Southall, London",UB1 4EB,07175183046,haris.iqbal10@gmail.com,F0039,No,Son,,,
-13014,Ibrahim Iqbal,Zain Iqbal,Male,2001-02-13,Single,Khuddam,Southall,London West,"89 London Road, Southall, London",UB1 4EB,07331739363,ibrahim.iqbal37@yahoo.co.uk,F0039,No,Son,2025-09-26,Sadr Majlis,
-13039,Yusuf Ghuman,Ibrahim Ghuman,Male,1960-08-06,Married,Ansar,Coventry,Midlands,"92 Victoria Road, Coventry, West Midlands",WV1 6WU,07556093204,yusuf.ghuman38@outlook.com,F0040,Yes,Self,,,
-13049,Hina Ghuman,Yusuf Ghuman,Female,1962-09-11,Married,Lajna,Coventry,Midlands,"92 Victoria Road, Coventry, West Midlands",WV1 6WU,07378547772,hina.ghuman22@yahoo.co.uk,F0040,No,Wife,,,Moved recently - confirm address
-13058,Zainab Ghuman,Yusuf Ghuman,Female,2016-01-26,Single,Nasirat,Coventry,Midlands,"92 Victoria Road, Coventry, West Midlands",WV1 6WU,,,F0040,No,Daughter,2026-07-03,Tajneed Secretary,
-13062,Zain Ghuman,Yusuf Ghuman,Male,1997-12-01,Single,Khuddam,Coventry,Midlands,"92 Victoria Road, Coventry, West Midlands",WV1 6WU,07203875099,zain.ghuman85@outlook.com,F0040,No,Son,2026-01-08,Tajneed Secretary,Phone number may be old
-13094,Ahmad Ghuman,Yusuf Ghuman,Male,2015-08-16,Single,Atfal,Coventry,Midlands,"92 Victoria Road, Coventry, West Midlands",WV1 6WU,,,F0040,No,Son,2026-08-20,Tajneed Secretary,Moved recently - confirm address
-13112,Amatul Ghuman,Yusuf Ghuman,Female,2014-04-12,Single,Nasirat,Coventry,Midlands,"92 Victoria Road, Coventry, West Midlands",WV1 6WU,,,F0040,No,Daughter,2024-10-11,Zaeem,
-13119,Danyal Bajwa,Sajid Bajwa,Male,1958-11-03,Married,Ansar,Morden,London South,"50 Mill Lane, Morden, London",SW17 5QL,07101666870,danyal.bajwa90@gmail.com,F0041,Yes,Self,2025-12-26,Qaid Majlis,
-13130,Rabia Bajwa,Danyal Bajwa,Female,1960-04-20,Married,Lajna,Morden,London South,"50 Mill Lane, Morden, London",SW17 5QL,07180339740,rabia.bajwa88@gmail.com,F0041,No,Wife,2024-11-10,Sadr Majlis,Moved recently - confirm address
-13148,Imran Bajwa,Danyal Bajwa,Male,2005-11-09,Single,Khuddam,Morden,London South,"50 Mill Lane, Morden, London",SW17 5QL,07926142939,imran.bajwa87@outlook.com,F0041,No,Son,,,
-13183,Amina Bajwa,Danyal Bajwa,Female,1998-01-10,Single,Lajna,Morden,London South,"50 Mill Lane, Morden, London",SW17 5QL,07501631599,amina.bajwa42@outlook.com,F0041,No,Daughter,2024-09-26,Tajneed Secretary,Moved recently - confirm address
-13185,Sumaira Bajwa,Danyal Bajwa,Female,2013-10-04,Single,Nasirat,Morden,London South,"50 Mill Lane, Morden, London",SW17 5QL,,,F0041,No,Daughter,,,Moved recently - confirm address
-13210,Zainab Bajwa,Danyal Bajwa,Female,2018-01-11,Single,Nasirat,Morden,London South,"50 Mill Lane, Morden, London",SW17 5QL,,,F0041,No,Daughter,2026-06-06,Sadr Majlis,
-13215,Sajid Malik,Masroor Malik,Male,1961-04-23,Single,Ansar,Mitcham,London South,"98 Oak Close, Mitcham, London",SW17 3RP,07412126788,sajid.malik14@outlook.com,F0042,Yes,Self,,,
-13217,Saleem Latif,Haris Latif,Male,1988-11-15,Married,Khuddam,Mitcham,London South,"24 Mill Lane, Mitcham, London",SW17 6RA,07826224447,saleem.latif9@hotmail.co.uk,F0043,Yes,Self,2025-02-06,Qaid Majlis,Moved recently - confirm address
-13228,Shazia Latif,Saleem Latif,Female,1992-04-23,Married,Lajna,Mitcham,London South,"24 Mill Lane, Mitcham, London",SW17 6RA,07437993712,shazia.latif1@yahoo.co.uk,F0043,No,Wife,2025-04-24,Tajneed Secretary,
-13254,Hina Latif,Saleem Latif,Female,2017-09-08,Single,Nasirat,Mitcham,London South,"24 Mill Lane, Mitcham, London",SW17 6RA,,,F0043,No,Daughter,,,Phone number may be old
-13263,Hina Latif,Saleem Latif,Female,2019-07-07,Single,Nasirat,Mitcham,London South,"24 Mill Lane, Mitcham, London",SW17 6RA,,,F0043,No,Daughter,2026-02-08,Zaeem,
-13275,Ataul Warraich,Waseem Warraich,Male,1985-06-27,Married,Ansar,Wolverhampton,Midlands,"189 Oak Close, Wolverhampton, West Midlands",CV1 8YJ,07828073741,ataul.warraich87@outlook.com,F0044,Yes,Self,2026-05-08,Qaid Majlis,Moved recently - confirm address
-13307,Noor Warraich,Ataul Warraich,Female,1987-04-08,Married,Lajna,Wolverhampton,Midlands,"189 Oak Close, Wolverhampton, West Midlands",CV1 8YJ,07266179796,noor.warraich70@outlook.com,F0044,No,Wife,,,
-13310,Bashir Warraich,Ataul Warraich,Male,2013-04-26,Single,Atfal,Wolverhampton,Midlands,"189 Oak Close, Wolverhampton, West Midlands",CV1 8YJ,,,F0044,No,Son,2025-09-03,Qaid Majlis,Phone number may be old
-13313,Hina Warraich,Ataul Warraich,Female,2017-05-28,Single,Nasirat,Wolverhampton,Midlands,"189 Oak Close, Wolverhampton, West Midlands",CV1 8YJ,,,F0044,No,Daughter,,,
-13330,Muhammad Iqbal,Bashir Iqbal,Male,1995-01-23,Married,Khuddam,Southall,London West,"96 Park Avenue, Southall, London",UB1 9FQ,07254573875,muhammad.iqbal13@outlook.com,F0045,Yes,Self,2026-06-06,Tajneed Secretary,Phone number may be old
-13359,Tahira Iqbal,Muhammad Iqbal,Female,2000-02-09,Married,Lajna,Southall,London West,"96 Park Avenue, Southall, London",UB1 9FQ,07105123828,tahira.iqbal43@hotmail.co.uk,F0045,No,Wife,2026-06-25,Sadr Majlis,
-13395,Rehana Iqbal,Muhammad Iqbal,Female,2019-10-02,Single,Nasirat,Southall,London West,"96 Park Avenue, Southall, London",UB1 9FQ,,,F0045,No,Daughter,2026-02-23,Zaeem,
-13397,Hamza Iqbal,Muhammad Iqbal,Male,2019-10-02,Single,Atfal,Southall,London West,"96 Park Avenue, Southall, London",UB1 9FQ,,,F0045,No,Son,2024-09-10,Qaid Majlis,
-13415,Bashir Iqbal,Muhammad Iqbal,Male,2019-10-02,Single,Atfal,Southall,London West,"96 Park Avenue, Southall, London",UB1 9FQ,,,F0045,No,Son,2026-02-12,Zaeem,
-13432,Shahid Rehman,Yusuf Rehman,Male,1983-04-30,Married,Ansar,Edinburgh,Scotland,"164 Station Road, Edinburgh, Scotland",EH7 7YE,07912513412,shahid.rehman89@yahoo.co.uk,F0046,Yes,Self,2024-09-09,Sadr Majlis,Moved recently - confirm address
-13442,Amina Rehman,Shahid Rehman,Female,1987-03-11,Married,Lajna,Edinburgh,Scotland,"164 Station Road, Edinburgh, Scotland",EH7 7YE,07278282742,amina.rehman41@hotmail.co.uk,F0046,No,Wife,2026-04-13,Zaeem,
-13471,Shahid Rehman,Shahid Rehman,Male,2007-12-19,Single,Khuddam,Edinburgh,Scotland,"164 Station Road, Edinburgh, Scotland",EH7 7YE,07876767721,shahid.rehman98@gmail.com,F0046,No,Son,2026-02-14,Zaeem,Moved recently - confirm address
-13486,Sadia Rehman,Shahid Rehman,Female,2013-11-30,Single,Nasirat,Edinburgh,Scotland,"164 Station Road, Edinburgh, Scotland",EH7 7YE,,,F0046,No,Daughter,,,
-13497,Aleena Rehman,Shahid Rehman,Female,2018-11-10,Single,Nasirat,Edinburgh,Scotland,"164 Station Road, Edinburgh, Scotland",EH7 7YE,,,F0046,No,Daughter,2026-05-09,Tajneed Secretary,
-13532,Iqra Rehman,Shahid Rehman,Female,2008-09-06,Single,Lajna,Edinburgh,Scotland,"164 Station Road, Edinburgh, Scotland",EH7 7YE,07134074517,iqra.rehman31@gmail.com,F0046,No,Daughter,2025-06-07,Qaid Majlis,
-13546,Usman Tahir,Nasir Tahir,Male,1970-04-26,Married,Ansar,Edinburgh,Scotland,"157 Elm Grove, Edinburgh, Scotland",EH7 3ZF,07449481260,usman.tahir84@yahoo.co.uk,F0047,Yes,Self,2024-12-29,Qaid Majlis,
-13555,Maryam Tahir,Usman Tahir,Female,1975-04-01,Married,Lajna,Edinburgh,Scotland,"157 Elm Grove, Edinburgh, Scotland",EH7 3ZF,07536729466,maryam.tahir10@outlook.com,F0047,No,Wife,,,Phone number may be old
-13561,Tahira Tahir,Usman Tahir,Female,2012-04-21,Single,Nasirat,Edinburgh,Scotland,"157 Elm Grove, Edinburgh, Scotland",EH7 3ZF,,,F0047,No,Daughter,2025-04-20,Sadr Majlis,Moved recently - confirm address
-13562,Yusuf Tahir,Usman Tahir,Male,2011-10-27,Single,Atfal,Edinburgh,Scotland,"157 Elm Grove, Edinburgh, Scotland",EH7 3ZF,,,F0047,No,Son,2024-06-09,Zaeem,
-13590,Ismail Tahir,Usman Tahir,Male,2007-10-18,Single,Khuddam,Edinburgh,Scotland,"157 Elm Grove, Edinburgh, Scotland",EH7 3ZF,07589297500,ismail.tahir81@gmail.com,F0047,No,Son,,,
-13620,Mubarak Sheikh,Waseem Sheikh,Male,1966-01-05,Single,Ansar,Baitul Futuh,London South,"113 Queens Road, Baitul Futuh, London",SM4 7HF,07206436110,mubarak.sheikh62@hotmail.co.uk,F0048,Yes,Self,2026-06-09,Sadr Majlis,Phone number may be old
-13625,Ayaan Rehman,Ibrahim Rehman,Male,1963-08-11,Single,Ansar,Southall,London West,"175 Queens Road, Southall, London",TW3 1PE,07554262218,ayaan.rehman79@gmail.com,F0049,Yes,Self,2024-08-14,Tajneed Secretary,
-13636,Hamza Nasir,Masroor Nasir,Male,1971-03-29,Married,Ansar,Wolverhampton,Midlands,"55 Elm Grove, Wolverhampton, West Midlands",CV1 3SZ,07965652341,hamza.nasir71@hotmail.co.uk,F0050,Yes,Self,,,
-13655,Tahira Nasir,Hamza Nasir,Female,1976-08-09,Married,Lajna,Wolverhampton,Midlands,"55 Elm Grove, Wolverhampton, West Midlands",CV1 3SZ,07438983640,tahira.nasir64@hotmail.co.uk,F0050,No,Wife,,,Phone number may be old
-13680,Hamid Ghuman,Zain Ghuman,Male,1986-06-15,Married,Ansar,Feltham,London West,"153 Gressenhall Road, Feltham, London",UB3 1QP,07091043006,hamid.ghuman81@yahoo.co.uk,F0051,Yes,Self,2024-07-12,Zaeem,
-13713,Khadija Ghuman,Hamid Ghuman,Female,1991-10-03,Married,Lajna,Feltham,London West,"153 Gressenhall Road, Feltham, London",UB3 1QP,07889241418,khadija.ghuman20@hotmail.co.uk,F0051,No,Wife,2025-07-17,Tajneed Secretary,Phone number may be old
-13748,Aleena Ghuman,Hamid Ghuman,Female,2013-06-28,Single,Nasirat,Feltham,London West,"153 Gressenhall Road, Feltham, London",UB3 1QP,,,F0051,No,Daughter,,,
-13764,Zafar Ghuman,Hamid Ghuman,Male,2013-09-19,Single,Atfal,Feltham,London West,"153 Gressenhall Road, Feltham, London",UB3 1QP,,,F0051,No,Son,2026-05-06,Zaeem,Moved recently - confirm address
-13768,Ahmad Nasir,Ismail Nasir,Male,1966-06-13,Married,Ansar,Guildford,Islamabad,"169 Oak Close, Guildford, Surrey",GU10 2AF,07524105648,ahmad.nasir34@gmail.com,F0052,Yes,Self,2024-06-22,Sadr Majlis,
-13805,Ayesha Nasir,Ahmad Nasir,Female,1970-12-19,Married,Lajna,Guildford,Islamabad,"169 Oak Close, Guildford, Surrey",GU10 2AF,07792524191,ayesha.nasir95@hotmail.co.uk,F0052,No,Wife,2025-03-27,Sadr Majlis,
-13838,Mahmood Bajwa,Bilal Bajwa,Male,1989-05-16,Married,Khuddam,Baitul Futuh,London South,"12 Queens Road, Baitul Futuh, London",CR4 7FG,07195180238,mahmood.bajwa52@gmail.com,F0053,Yes,Self,2024-08-25,Sadr Majlis,
-13843,Sumaira Bajwa,Mahmood Bajwa,Female,1995-04-16,Married,Lajna,Baitul Futuh,London South,"12 Queens Road, Baitul Futuh, London",CR4 7FG,07187053494,sumaira.bajwa60@hotmail.co.uk,F0053,No,Wife,2024-07-01,Sadr Majlis,
-13867,Nusrat Bajwa,Mahmood Bajwa,Female,2018-10-25,Single,Nasirat,Baitul Futuh,London South,"12 Queens Road, Baitul Futuh, London",CR4 7FG,,,F0053,No,Daughter,2025-12-24,Qaid Majlis,
-13894,Bilal Bajwa,Mahmood Bajwa,Male,2018-10-15,Single,Atfal,Baitul Futuh,London South,"12 Queens Road, Baitul Futuh, London",CR4 7FG,,,F0053,No,Son,,,Phone number may be old
-13895,Amatul Bajwa,Mahmood Bajwa,Female,2019-06-09,Single,Nasirat,Baitul Futuh,London South,"12 Queens Road, Baitul Futuh, London",CR4 7FG,,,F0053,No,Daughter,2024-08-07,Sadr Majlis,
-13909,Zain Bajwa,Mahmood Bajwa,Male,2018-07-05,Single,Atfal,Baitul Futuh,London South,"12 Queens Road, Baitul Futuh, London",CR4 7FG,,,F0053,No,Son,2026-04-09,Sadr Majlis,
-13912,Hamid Tahir,Tahir Tahir,Male,1987-02-17,Married,Khuddam,Feltham,London West,"96 Queens Road, Feltham, London",UB3 2YE,07234456557,hamid.tahir30@yahoo.co.uk,F0054,Yes,Self,,,Phone number may be old
-13917,Maryam Tahir,Hamid Tahir,Female,1989-04-07,Married,Lajna,Feltham,London West,"96 Queens Road, Feltham, London",UB3 2YE,07127756185,maryam.tahir58@hotmail.co.uk,F0054,No,Wife,2025-01-11,Tajneed Secretary,
-13937,Fatima Tahir,Hamid Tahir,Female,2010-10-06,Single,Lajna,Feltham,London West,"96 Queens Road, Feltham, London",UB3 2YE,07490352135,fatima.tahir66@outlook.com,F0054,No,Daughter,,,Phone number may be old
-13941,Shazia Tahir,Hamid Tahir,Female,2018-12-12,Single,Nasirat,Feltham,London West,"96 Queens Road, Feltham, London",UB3 2YE,,,F0054,No,Daughter,2026-08-01,Zaeem,
-13977,Bashir Tahir,Hamid Tahir,Male,2014-12-06,Single,Atfal,Feltham,London West,"96 Queens Road, Feltham, London",UB3 2YE,,,F0054,No,Son,,,
-13985,Naeem Bajwa,Muhammad Bajwa,Male,1958-06-24,Married,Ansar,Baitul Futuh,London South,"34 Church Street, Baitul Futuh, London",CR4 6DY,07721510702,naeem.bajwa93@outlook.com,F0055,Yes,Self,,,Phone number may be old
-14011,Amatul Bajwa,Naeem Bajwa,Female,1962-04-05,Married,Lajna,Baitul Futuh,London South,"34 Church Street, Baitul Futuh, London",CR4 6DY,07324472099,amatul.bajwa83@hotmail.co.uk,F0055,No,Wife,2025-06-22,Qaid Majlis,
-14030,Iqra Bajwa,Naeem Bajwa,Female,2013-03-28,Single,Nasirat,Baitul Futuh,London South,"34 Church Street, Baitul Futuh, London",CR4 6DY,,,F0055,No,Daughter,,,
-14055,Zain Bajwa,Naeem Bajwa,Male,2000-09-11,Single,Khuddam,Baitul Futuh,London South,"34 Church Street, Baitul Futuh, London",CR4 6DY,07806578759,zain.bajwa50@yahoo.co.uk,F0055,No,Son,2024-06-07,Qaid Majlis,Phone number may be old
-14073,Muhammad Bajwa,Naeem Bajwa,Male,2006-01-20,Single,Khuddam,Baitul Futuh,London South,"34 Church Street, Baitul Futuh, London",CR4 6DY,07785932133,muhammad.bajwa69@yahoo.co.uk,F0055,No,Son,2026-08-02,Sadr Majlis,
+AMJS ID,Family Code,Relationship to HOF,Record Status,Name,Marital Status,Address 1,Address 2,Address 3,Address 4,City,Post Code,Country,Telephone RES,Telephone Work,Mobile,Telephone Other,Email,Branch,Age,Tanzeem,Date of Birth,Wasiyyat Number,Wasiyyat Status,Waqf-e-Nau Number
+10231,4101,Self,Active,Zain Chaudhry,Married,Flat 24,"Elm House, 29 Church Street",St Johns,,Glasgow,G41 2XD,United Kingdom,01410013389,,07265423511,,zain.chaudhry45@yahoo.co.uk,Glasgow,72,Ansar,17/02/1954,31578,M,0
+10248,4101,Wife,Active,Sadia Chaudhry,Married,Flat 24,"Elm House, 29 Church Street",St Johns,,Glasgow,G41 2XD,United Kingdom,01410013389,,07618495931,07341316475,sadia.chaudhry48@hotmail.co.uk,Glasgow,67,Lajna,27/08/1959,,,0
+10271,4101,Daughter,Active,Hafsa Chaudhry,Single,Flat 24,"Elm House, 29 Church Street",St Johns,,Glasgow,G41 2XD,United Kingdom,01410013389,,07483503056,,hafsa.chaudhry73@hotmail.co.uk,Glasgow,31,Lajna,14/12/1994,,,0
+10292,4105,Self,Active,Danyal Hussain,Married,Flat 29,"Elm House, 34 Church Street",,,Glasgow,G41 9XL,United Kingdom,,,07012269166,,danyal.hussain68@outlook.com,Glasgow,36,Khuddam,09/03/1990,,,0
+10309,4105,Wife,Active,Amatul Hussain,Married,Flat 29,"Elm House, 34 Church Street",,,Glasgow,G41 9XL,United Kingdom,,,07514627048,,amatul.hussain81@gmail.com,Glasgow,32,Lajna,15/04/1994,,,52145
+10329,4105,Son,Active,Sajid Hussain,Single,Flat 29,"Elm House, 34 Church Street",,,Glasgow,G41 9XL,United Kingdom,,,,,,Glasgow,11,Atfal,10/08/2015,,,0
+10363,4105,Son,Active,Ataul Hussain,Single,Flat 29,"Elm House, 34 Church Street",,,Glasgow,G41 9XL,United Kingdom,,,,,,Glasgow,8,Atfal,08/02/2018,,,0
+10387,4105,Daughter,Active,Sadia Hussain,Single,Flat 29,"Elm House, 34 Church Street",,,Glasgow,G41 9XL,United Kingdom,,,,,,Glasgow,10,Nasirat,03/02/2016,,,52182
+10393,4105,Daughter,Active,Ayesha Hussain,Single,Flat 29,"Elm House, 34 Church Street",,,Glasgow,G41 9XL,United Kingdom,,,,,,Glasgow,7,Nasirat,29/04/2019,,,0
+10402,4108,Self,Active,Hamza Hussain,Married,Flat 6,"Park House, 28 Mosque Lane",Westbury,,Glasgow,G41 4NR,United Kingdom,,01418393010,07310518347,,hamza.hussain93@hotmail.co.uk,Glasgow,41,Ansar,02/04/1985,31593,M,0
+10439,4108,Wife,Active,Rabia Hussain,Married,Flat 6,"Park House, 28 Mosque Lane",Westbury,,Glasgow,G41 4NR,United Kingdom,,01416566701,07065133387,,rabia.hussain36@hotmail.co.uk,Glasgow,37,Lajna,25/06/1989,31624,M,0
+10469,4108,Son,Active,Bashir Hussain,Single,Flat 6,"Park House, 28 Mosque Lane",Westbury,,Glasgow,G41 4NR,United Kingdom,,,,,,Glasgow,12,Atfal,20/09/2014,,,52217
+10475,4112,Self,Active,Nasir Javed,Married,125 Cedar Drive,,Northfield,,London,SW17 1GR,United Kingdom,02064746872,,07009788208,,nasir.javed9@hotmail.co.uk,Tooting,57,Ansar,14/10/1968,,,0
+10480,4112,Wife,Active,Rehana Javed,Married,125 Cedar Drive,,Northfield,,London,SW17 1GR,United Kingdom,02064746872,,07990916998,,rehana.javed27@yahoo.co.uk,Tooting,53,Lajna,27/07/1973,,,0
+10501,4112,Daughter,Active,Maryam Javed,Single,125 Cedar Drive,,Northfield,,London,SW17 1GR,United Kingdom,02064746872,,07107991183,,maryam.javed45@hotmail.co.uk,Tooting,15,Lajna,03/07/2011,,,0
+10506,4116,Self,Active,Usman Warraich,Married,Flat 15,"Oak House, 86 Cedar Drive",Westbury,,Tilford,GU10 5EF,United Kingdom,01252182449,,07401640052,,usman.warraich21@yahoo.co.uk,Islamabad,56,Ansar,24/08/1970,,,0
+10535,4116,Wife,Active,Tahira Warraich,Married,Flat 15,"Oak House, 86 Cedar Drive",Westbury,,Tilford,GU10 5EF,United Kingdom,01252182449,01252280598,07262045053,,tahira.warraich46@gmail.com,Islamabad,52,Lajna,26/09/1974,,,0
+10571,4116,Son,Active,Tariq Warraich,Single,Flat 15,"Oak House, 86 Cedar Drive",Westbury,,Tilford,GU10 5EF,United Kingdom,01252182449,,07025634216,,tariq.warraich29@outlook.com,Islamabad,21,Khuddam,14/05/2005,,,0
+10584,4116,Daughter,Active,Farah Warraich,Single,Flat 15,"Oak House, 86 Cedar Drive",Westbury,,Tilford,GU10 5EF,United Kingdom,01252182449,,07365414586,,farah.warraich4@yahoo.co.uk,Islamabad,16,Lajna,07/06/2010,,,0
+10592,4116,Daughter,Active,Aleena Warraich,Single,Flat 15,"Oak House, 86 Cedar Drive",Westbury,,Tilford,GU10 5EF,United Kingdom,01252182449,,07569816934,07608835615,aleena.warraich85@yahoo.co.uk,Islamabad,23,Lajna,04/10/2002,,,0
+10600,4121,Self,Active,Imran Warraich,Married,Flat 14,"Park House, 90 Station Road",Westbury,,Leeds,LS8 3HS,United Kingdom,,,07044369957,,imran.warraich66@hotmail.co.uk,Leeds,40,Ansar,06/10/1985,,,0
+10631,4121,Wife,Active,Bushra Warraich,Married,Flat 14,"Park House, 90 Station Road",Westbury,,Leeds,LS8 3HS,United Kingdom,,,07134332003,,bushra.warraich59@gmail.com,Leeds,35,Lajna,19/03/1991,31630,M,0
+10658,4121,Son,Active,Haris Warraich,Single,Flat 14,"Park House, 90 Station Road",Westbury,,Leeds,LS8 3HS,United Kingdom,,,,,,Leeds,7,Atfal,24/07/2019,,,0
+10659,4121,Son,Active,Bilal Warraich,Single,Flat 14,"Park House, 90 Station Road",Westbury,,Leeds,LS8 3HS,United Kingdom,,,,,,Leeds,10,Atfal,08/07/2016,,,52251
+10695,4121,Son,Active,Yusuf Warraich,Single,Flat 14,"Park House, 90 Station Road",Westbury,,Leeds,LS8 3HS,United Kingdom,,,,,,Leeds,13,Atfal,10/02/2013,,,52281
+10731,4121,Daughter,Active,Hafsa Warraich,Single,Flat 14,"Park House, 90 Station Road",Westbury,,Leeds,LS8 3HS,United Kingdom,,,,,,Leeds,10,Nasirat,17/09/2016,,,0
+10759,4130,Self,Active,Saleem Sheikh,Married,Flat 28,"Park House, 34 Grange Road",,,Coventry,CV1 5WU,United Kingdom,,,07223623166,,saleem.sheikh54@outlook.com,Coventry,50,Ansar,21/05/1976,31652,M,0
+10763,4130,Wife,Active,Khadija Sheikh,Married,Flat 28,"Park House, 34 Grange Road",,,Coventry,CV1 5WU,United Kingdom,,,07096705466,,khadija.sheikh63@hotmail.co.uk,Coventry,48,Lajna,18/07/1978,,,0
+10778,4130,Daughter,Active,Amatul Sheikh,Single,Flat 28,"Park House, 34 Grange Road",,,Coventry,CV1 5WU,United Kingdom,,,07272980699,,amatul.sheikh83@gmail.com,Coventry,17,Lajna,22/08/2009,,,0
+10806,4130,Son,Active,Yusuf Sheikh,Single,Flat 28,"Park House, 34 Grange Road",,,Coventry,CV1 5WU,United Kingdom,,,,,,Coventry,8,Atfal,11/03/2018,,,52298
+10820,4138,Self,Active,Shahid Shah,Married,Flat 29,"Rose House, 54 Station Road",Hillside,,Tilford,GU10 2UA,United Kingdom,,,07033092327,,shahid.shah60@hotmail.co.uk,Islamabad,70,Ansar,03/06/1956,31657,M,0
+10837,4138,Wife,Inactive,Sana Shah,Married,Flat 29,"Rose House, 54 Station Road",Hillside,,Tilford,GU10 2UA,United Kingdom,,,07241904966,,sana.shah10@hotmail.co.uk,Islamabad,65,Lajna,20/09/1961,31696,M,0
+10853,4143,Self,Active,Ayaan Bhatti,Married,207 Park Avenue,,Westbury,,Glasgow,G41 7QD,United Kingdom,01415067165,,07877694531,,ayaan.bhatti32@outlook.com,Glasgow,33,Khuddam,29/12/1992,31730,M,0
+10883,4143,Wife,Active,Hafsa Bhatti,Married,207 Park Avenue,,Westbury,,Glasgow,G41 7QD,United Kingdom,01415067165,,07735454948,07313678377,hafsa.bhatti3@outlook.com,Glasgow,29,Lajna,10/03/1997,,,0
+10889,4143,Son,Active,Zafar Bhatti,Single,207 Park Avenue,,Westbury,,Glasgow,G41 7QD,United Kingdom,01415067165,,,,,Glasgow,7,Atfal,19/11/2018,,,0
+10920,4143,Daughter,Active,Bushra Bhatti,Single,207 Park Avenue,,Westbury,,Glasgow,G41 7QD,United Kingdom,01415067165,,,,,Glasgow,7,Nasirat,10/12/2018,,,0
+10950,4148,Self,Active,Imran Cheema,Married,60 Park Avenue,,,,Southall,UB1 9GH,United Kingdom,02074989413,02000842710,07947775204,,imran.cheema15@outlook.com,Southall,48,Ansar,30/04/1978,,,0
+10955,4148,Wife,Active,Rabia Cheema,Married,60 Park Avenue,,,,Southall,UB1 9GH,United Kingdom,02074989413,,07941318699,,rabia.cheema67@hotmail.co.uk,Southall,45,Lajna,28/07/1981,31771,M,0
+10980,4148,Daughter,Active,Aleena Cheema,Single,60 Park Avenue,,,,Southall,UB1 9GH,United Kingdom,02074989413,,07913341232,,aleena.cheema1@hotmail.co.uk,Southall,18,Lajna,01/06/2008,,,0
+11007,4148,Daughter,Active,Hafsa Cheema,Single,60 Park Avenue,,,,Southall,UB1 9GH,United Kingdom,02074989413,,,,,Southall,9,Nasirat,18/03/2017,,,0
+11026,4148,Daughter,Active,Sumaira Cheema,Single,60 Park Avenue,,,,Southall,UB1 9GH,United Kingdom,02074989413,,,,,Southall,9,Nasirat,07/07/2017,,,52313
+11039,4155,Self,Active,Ismail Latif,Married,58 Mosque Lane,,,,Mitcham,CR4 3DB,United Kingdom,02049947174,,07940139904,,ismail.latif61@hotmail.co.uk,Mitcham,38,Khuddam,11/11/1987,,,0
+11073,4155,Wife,Active,Sumaira Latif,Married,58 Mosque Lane,,,,Mitcham,CR4 3DB,United Kingdom,02049947174,,07175655125,,sumaira.latif37@outlook.com,Mitcham,34,Lajna,06/07/1992,,,52351
+11099,4155,Son,Active,Masroor Latif,Single,58 Mosque Lane,,,,Mitcham,CR4 3DB,United Kingdom,02049947174,,,,,Mitcham,8,Atfal,06/11/2017,,,0
+11125,4155,Son,Active,Yusuf Latif,Single,58 Mosque Lane,,,,Mitcham,CR4 3DB,United Kingdom,02049947174,,,,,Mitcham,7,Atfal,01/11/2018,,,0
+11149,4155,Daughter,Active,Sadia Latif,Single,58 Mosque Lane,,,,Mitcham,CR4 3DB,United Kingdom,02049947174,,,,,Mitcham,9,Nasirat,15/09/2017,,,52387
+11168,4155,Daughter,Active,Fatima Latif,Single,58 Mosque Lane,,,,Mitcham,CR4 3DB,United Kingdom,02049947174,,,,,Mitcham,8,Nasirat,09/03/2018,,,52426
+11179,4160,Self,Active,Saleem Khan,Married,142 Victoria Road,,Hillside,,Leeds,LS8 2TE,United Kingdom,,,07737826398,,saleem.khan9@hotmail.co.uk,Leeds,61,Ansar,25/07/1965,,,0
+11197,4160,Wife,Active,Khadija Khan,Married,142 Victoria Road,,Hillside,,Leeds,LS8 2TE,United Kingdom,,,07044997278,,khadija.khan71@yahoo.co.uk,Leeds,55,Lajna,23/11/1970,,,0
+11232,4160,Daughter,Active,Nusrat Khan,Single,142 Victoria Road,,Hillside,,Leeds,LS8 2TE,United Kingdom,,,07605766270,,nusrat.khan13@yahoo.co.uk,Leeds,20,Lajna,09/03/2006,,,52451
+11261,4160,Son,Active,Yusuf Khan,Single,142 Victoria Road,,Hillside,,Leeds,LS8 2TE,United Kingdom,,,,,,Leeds,11,Atfal,06/05/2015,,,52461
+11271,4160,Son,Active,Naeem Khan,Single,142 Victoria Road,,Hillside,,Leeds,LS8 2TE,United Kingdom,,,,,,Leeds,13,Atfal,23/10/2012,,,0
+11277,4166,Self,Active,Saleem Latif,Married,Flat 11,"Oak House, 80 London Road",,,Glasgow,G41 5JD,United Kingdom,01411172400,,07692221969,,saleem.latif75@outlook.com,Glasgow,45,Ansar,07/11/1980,,,0
+11287,4166,Wife,Active,Sumaira Latif,Married,Flat 11,"Oak House, 80 London Road",,,Glasgow,G41 5JD,United Kingdom,01411172400,,07748217594,,sumaira.latif89@outlook.com,Glasgow,43,Lajna,25/02/1983,,,0
+11304,4166,Daughter,Active,Amina Latif,Single,Flat 11,"Oak House, 80 London Road",,,Glasgow,G41 5JD,United Kingdom,01411172400,,07944064090,,amina.latif37@outlook.com,Glasgow,18,Lajna,20/03/2008,,,52486
+11319,4166,Daughter,Active,Noor Latif,Single,Flat 11,"Oak House, 80 London Road",,,Glasgow,G41 5JD,United Kingdom,01411172400,,07210470952,,noor.latif42@yahoo.co.uk,Glasgow,18,Lajna,30/08/2008,31788,M,0
+11346,4166,Son,Active,Hamid Latif,Single,Flat 11,"Oak House, 80 London Road",,,Glasgow,G41 5JD,United Kingdom,01411172400,,07842474517,,hamid.latif97@hotmail.co.uk,Glasgow,18,Khuddam,02/04/2008,,,0
+11361,4173,Self,Active,Bilal Mirza,Married,Flat 26,"Oak House, 34 Mill Lane",,,Leeds,LS8 8QL,United Kingdom,01135137098,,07461200471,,bilal.mirza50@hotmail.co.uk,Leeds,45,Ansar,06/03/1981,,,0
+11391,4173,Wife,Active,Samina Mirza,Married,Flat 26,"Oak House, 34 Mill Lane",,,Leeds,LS8 8QL,United Kingdom,01135137098,,07926179640,,samina.mirza57@hotmail.co.uk,Leeds,42,Lajna,03/04/1984,,,0
+11420,4173,Daughter,Active,Samina Mirza,Single,Flat 26,"Oak House, 34 Mill Lane",,,Leeds,LS8 8QL,United Kingdom,01135137098,,07064317139,,samina.mirza43@gmail.com,Leeds,19,Lajna,23/12/2006,,,0
+11436,4176,Self,Active,Khalid Qureshi,Married,18 Elm Grove,,,,Bradford,BD3 4PF,United Kingdom,,,07102053950,,khalid.qureshi17@gmail.com,Bradford,74,Ansar,02/01/1952,,,0
+11463,4176,Wife,Active,Fatima Qureshi,Married,18 Elm Grove,,,,Bradford,BD3 4PF,United Kingdom,,,07891783908,,fatima.qureshi8@gmail.com,Bradford,70,Lajna,14/12/1955,,,0
+11494,4176,Daughter,Active,Rabia Qureshi,Single,18 Elm Grove,,,,Bradford,BD3 4PF,United Kingdom,,,07212499856,,rabia.qureshi59@yahoo.co.uk,Bradford,30,Lajna,04/08/1996,,,0
+11527,4176,Daughter,Active,Tahira Qureshi,Single,18 Elm Grove,,,,Bradford,BD3 4PF,United Kingdom,,,07367365766,,tahira.qureshi55@yahoo.co.uk,Bradford,30,Lajna,13/03/1996,31830,M,0
+11548,4176,Daughter,Active,Maryam Qureshi,Single,18 Elm Grove,,,,Bradford,BD3 4PF,United Kingdom,,,07116152809,,maryam.qureshi86@yahoo.co.uk,Bradford,18,Lajna,16/07/2008,,,0
+11556,4183,Self,Active,Waseem Dogar,Single,193 Station Road,,Westbury,,Tilford,GU10 5QE,United Kingdom,01252327315,,07998094024,,waseem.dogar44@yahoo.co.uk,Islamabad,42,Ansar,22/09/1984,,,0
+11579,4184,Self,Active,Khalid Malik,Married,Flat 22,"Oak House, 19 Kings Avenue",St Johns,,London,SW17 1DW,United Kingdom,02067525459,02076797643,07815614978,,khalid.malik29@gmail.com,Tooting,67,Ansar,16/05/1959,31870,M,0
+11605,4184,Wife,Active,Sadia Malik,Married,Flat 22,"Oak House, 19 Kings Avenue",St Johns,,London,SW17 1DW,United Kingdom,02067525459,,07445107622,,sadia.malik65@hotmail.co.uk,Tooting,63,Lajna,24/09/1963,31890,M,0
+11641,4184,Son,Active,Mahmood Malik,Single,Flat 22,"Oak House, 19 Kings Avenue",St Johns,,London,SW17 1DW,United Kingdom,02067525459,,07596966416,07529751613,mahmood.malik76@outlook.com,Tooting,17,Khuddam,24/07/2009,,,0
+11667,4184,Son,Active,Mubarak Malik,Single,Flat 22,"Oak House, 19 Kings Avenue",St Johns,,London,SW17 1DW,United Kingdom,02067525459,,07188355231,,mubarak.malik23@hotmail.co.uk,Tooting,17,Khuddam,03/07/2009,,,52497
+11677,4186,Self,Active,Nasir Ghuman,Married,Flat 15,"Rose House, 81 Park Avenue",,,London,SW17 8DU,United Kingdom,02044905814,,07199867980,,nasir.ghuman42@hotmail.co.uk,Tooting,33,Khuddam,05/03/1993,,,0
+11708,4186,Wife,Active,Maryam Ghuman,Married,Flat 15,"Rose House, 81 Park Avenue",,,London,SW17 8DU,United Kingdom,02044905814,,07182037788,,maryam.ghuman48@yahoo.co.uk,Tooting,29,Lajna,25/12/1996,,,0
+11727,4186,Daughter,Active,Samina Ghuman,Single,Flat 15,"Rose House, 81 Park Avenue",,,London,SW17 8DU,United Kingdom,02044905814,,,,,Tooting,8,Nasirat,12/09/2018,,,0
+11749,4186,Son,Active,Bashir Ghuman,Single,Flat 15,"Rose House, 81 Park Avenue",,,London,SW17 8DU,United Kingdom,02044905814,,,,,Tooting,8,Atfal,03/09/2018,,,0
+11766,4186,Son,Active,Masroor Ghuman,Single,Flat 15,"Rose House, 81 Park Avenue",,,London,SW17 8DU,United Kingdom,02044905814,,,,,Tooting,8,Atfal,07/09/2018,,,0
+11789,4191,Self,Active,Imran Tahir,Married,170 Elm Grove,,St Johns,,Glasgow,G41 2NX,United Kingdom,01415281685,,07332214188,,imran.tahir85@gmail.com,Glasgow,73,Ansar,21/05/1953,,,0
+11811,4191,Wife,Active,Hafsa Tahir,Married,170 Elm Grove,,St Johns,,Glasgow,G41 2NX,United Kingdom,01415281685,,07927065379,,hafsa.tahir30@outlook.com,Glasgow,67,Lajna,19/04/1959,31915,M,0
+11846,4191,Daughter,Active,Nusrat Tahir,Single,170 Elm Grove,,St Johns,,Glasgow,G41 2NX,United Kingdom,01415281685,,,,,Glasgow,13,Nasirat,15/10/2012,,,0
+11875,4199,Self,Active,Bashir Rana,Married,Flat 17,"Elm House, 26 Grange Road",Westbury,,Southall,UB1 3LB,United Kingdom,,02012478261,07375060685,,bashir.rana48@gmail.com,Southall,41,Ansar,19/01/1985,,,0
+11890,4199,Wife,Active,Hina Rana,Married,Flat 17,"Elm House, 26 Grange Road",Westbury,,Southall,UB1 3LB,United Kingdom,,,07220472779,07104328986,hina.rana37@gmail.com,Southall,40,Lajna,17/03/1986,,,0
+11906,4199,Son,Active,Zafar Rana,Single,Flat 17,"Elm House, 26 Grange Road",Westbury,,Southall,UB1 3LB,United Kingdom,,,07179808932,,zafar.rana79@gmail.com,Southall,18,Khuddam,27/10/2007,,,0
+11929,4199,Son,Active,Zain Rana,Single,Flat 17,"Elm House, 26 Grange Road",Westbury,,Southall,UB1 3LB,United Kingdom,,,,,,Southall,7,Atfal,19/07/2019,,,52503
+11953,4201,Self,Active,Shahid Latif,Married,130 Queens Road,,Hillside,,Leeds,LS8 8BR,United Kingdom,,,07195205852,,shahid.latif90@outlook.com,Leeds,52,Ansar,04/07/1974,,,0
+11984,4201,Wife,Active,Zainab Latif,Married,130 Queens Road,,Hillside,,Leeds,LS8 8BR,United Kingdom,,,07704303054,,zainab.latif33@outlook.com,Leeds,47,Lajna,17/01/1979,,,0
+11987,4201,Daughter,Active,Sadia Latif,Single,130 Queens Road,,Hillside,,Leeds,LS8 8BR,United Kingdom,,,07566765277,,sadia.latif11@yahoo.co.uk,Leeds,18,Lajna,04/10/2007,,,0
+12015,4203,Self,Active,Hamza Bhatti,Married,Flat 6,"Rose House, 14 London Road",,,Birmingham,B16 5NT,United Kingdom,,,07016582029,,hamza.bhatti5@outlook.com,Birmingham West,36,Khuddam,23/12/1989,,,52526
+12024,4203,Wife,Active,Rehana Bhatti,Married,Flat 6,"Rose House, 14 London Road",,,Birmingham,B16 5NT,United Kingdom,,,07927557192,,rehana.bhatti41@outlook.com,Birmingham West,35,Lajna,09/05/1991,,,0
+12042,4203,Son,Active,Imran Bhatti,Single,Flat 6,"Rose House, 14 London Road",,,Birmingham,B16 5NT,United Kingdom,,,,,,Birmingham West,14,Atfal,16/01/2012,,,0
+12078,4205,Self,Active,Tariq Cheema,Married,181 Elm Grove,,,,Southall,UB1 8HE,United Kingdom,02017271551,,07583132370,,tariq.cheema60@yahoo.co.uk,Southall,48,Ansar,19/10/1977,,,0
+12114,4205,Wife,Active,Hafsa Cheema,Married,181 Elm Grove,,,,Southall,UB1 8HE,United Kingdom,02017271551,,07786691251,,hafsa.cheema17@yahoo.co.uk,Southall,47,Lajna,11/07/1979,,,0
+12150,4205,Son,Active,Hamid Cheema,Single,181 Elm Grove,,,,Southall,UB1 8HE,United Kingdom,02017271551,,,,,Southall,9,Atfal,20/12/2016,,,0
+12154,4205,Son,Active,Khalid Cheema,Single,181 Elm Grove,,,,Southall,UB1 8HE,United Kingdom,02017271551,,07841438424,,khalid.cheema65@gmail.com,Southall,15,Khuddam,16/05/2011,,,52541
+12165,4205,Son,Active,Rashid Cheema,Single,181 Elm Grove,,,,Southall,UB1 8HE,United Kingdom,02017271551,02009439690,07784473647,,rashid.cheema21@gmail.com,Southall,23,Khuddam,04/08/2003,,,0
+12194,4205,Daughter,Active,Sumaira Cheema,Single,181 Elm Grove,,,,Southall,UB1 8HE,United Kingdom,02017271551,,07562588153,,sumaira.cheema58@yahoo.co.uk,Southall,16,Lajna,11/08/2010,31954,M,52562
+12210,4208,Self,Active,Usman Ahmad,Married,Flat 13,"Elm House, 21 Cedar Drive",,,Mitcham,CR4 6HG,United Kingdom,02087747016,,07748016245,,usman.ahmad6@yahoo.co.uk,Mitcham,33,Khuddam,08/10/1992,,,52581
+12236,4208,Wife,Active,Aleena Ahmad,Married,Flat 13,"Elm House, 21 Cedar Drive",,,Mitcham,CR4 6HG,United Kingdom,02087747016,,07784991216,,aleena.ahmad72@yahoo.co.uk,Mitcham,32,Lajna,20/01/1994,,,0
+12260,4208,Son,Active,Danyal Ahmad,Single,Flat 13,"Elm House, 21 Cedar Drive",,,Mitcham,CR4 6HG,United Kingdom,02087747016,,,,,Mitcham,8,Atfal,15/02/2018,,,0
+12269,4214,Self,Active,Ismail Rehman,Married,117 Park Avenue,,Westbury,,Coventry,CV1 6GR,United Kingdom,,,07551694097,,ismail.rehman93@hotmail.co.uk,Coventry,48,Ansar,06/08/1978,,,0
+12273,4214,Wife,Active,Rabia Rehman,Married,117 Park Avenue,,Westbury,,Coventry,CV1 6GR,United Kingdom,,,07623091307,,rabia.rehman53@hotmail.co.uk,Coventry,43,Lajna,13/11/1982,31995,M,0
+12287,4214,Daughter,Inactive,Tahira Rehman,Single,117 Park Avenue,,Westbury,,Coventry,CV1 6GR,United Kingdom,,,07786527858,,tahira.rehman79@yahoo.co.uk,Coventry,21,Lajna,23/02/2005,32009,M,0
+12318,4214,Son,Active,Waseem Rehman,Single,117 Park Avenue,,Westbury,,Coventry,CV1 6GR,United Kingdom,,,07375758441,,waseem.rehman51@outlook.com,Coventry,17,Khuddam,12/04/2009,,,52601
+12341,4214,Son,Active,Mahmood Rehman,Single,117 Park Avenue,,Westbury,,Coventry,CV1 6GR,United Kingdom,,,07733848421,,mahmood.rehman32@hotmail.co.uk,Coventry,16,Khuddam,07/04/2010,32055,M,52630
+12345,4223,Self,Active,Masroor Ghuman,Married,60 Queens Road,,,,Hounslow,TW3 8EF,United Kingdom,02082677345,,07026206724,,masroor.ghuman39@gmail.com,Hounslow North,49,Ansar,10/05/1977,,,0
+12382,4223,Wife,Active,Fatima Ghuman,Married,60 Queens Road,,,,Hounslow,TW3 8EF,United Kingdom,02082677345,,07887287431,,fatima.ghuman83@outlook.com,Hounslow North,45,Lajna,25/09/1981,,,0
+12399,4223,Son,Active,Rashid Ghuman,Single,60 Queens Road,,,,Hounslow,TW3 8EF,United Kingdom,02082677345,,,,,Hounslow North,8,Atfal,09/04/2018,,,0
+12412,4226,Self,Active,Mubarak Ghuman,Married,Flat 27,"Rose House, 12 Queens Road",St Johns,,Bradford,BD3 2GF,United Kingdom,01274304637,,07530174268,,mubarak.ghuman89@yahoo.co.uk,Bradford,51,Ansar,14/09/1975,,,0
+12420,4226,Wife,Active,Farah Ghuman,Married,Flat 27,"Rose House, 12 Queens Road",St Johns,,Bradford,BD3 2GF,United Kingdom,01274304637,,07727956878,,farah.ghuman98@hotmail.co.uk,Bradford,46,Lajna,13/04/1980,,,0
+12436,4226,Son,Active,Hamza Ghuman,Single,Flat 27,"Rose House, 12 Queens Road",St Johns,,Bradford,BD3 2GF,United Kingdom,01274304637,,,,,Bradford,14,Atfal,14/07/2012,,,0
+12473,4226,Son,Active,Faisal Ghuman,Single,Flat 27,"Rose House, 12 Queens Road",St Johns,,Bradford,BD3 2GF,United Kingdom,01274304637,,07397187072,,faisal.ghuman73@outlook.com,Bradford,24,Khuddam,18/02/2002,,,52651
+12477,4226,Daughter,Active,Farah Ghuman,Single,Flat 27,"Rose House, 12 Queens Road",St Johns,,Bradford,BD3 2GF,United Kingdom,01274304637,,,,,Bradford,10,Nasirat,03/11/2015,,,0
+12478,4226,Son,Active,Tahir Ghuman,Single,Flat 27,"Rose House, 12 Queens Road",St Johns,,Bradford,BD3 2GF,United Kingdom,01274304637,,,,,Bradford,13,Atfal,20/09/2013,,,52674
+12513,4227,Self,Inactive,Bilal Hussain,Married,Flat 10,"Elm House, 18 Grange Road",St Johns,,Mitcham,CR4 7QR,United Kingdom,02066182512,,07868633752,,bilal.hussain5@gmail.com,Mitcham,39,Khuddam,05/01/1987,,,0
+12540,4227,Wife,Active,Amatul Hussain,Married,Flat 10,"Elm House, 18 Grange Road",St Johns,,Mitcham,CR4 7QR,United Kingdom,02066182512,,07030673830,,amatul.hussain30@yahoo.co.uk,Mitcham,35,Lajna,17/06/1991,32060,M,52677
+12577,4227,Daughter,Inactive,Farah Hussain,Single,Flat 10,"Elm House, 18 Grange Road",St Johns,,Mitcham,CR4 7QR,United Kingdom,02066182512,,,,,Mitcham,12,Nasirat,29/05/2014,,,0
+12611,4227,Son,Active,Mubarak Hussain,Single,Flat 10,"Elm House, 18 Grange Road",St Johns,,Mitcham,CR4 7QR,United Kingdom,02066182512,,,,,Mitcham,10,Atfal,21/05/2016,,,0
+12623,4234,Self,Active,Zain Hussain,Married,Flat 12,"Rose House, 90 Queens Road",Northfield,,Leeds,LS8 3NR,United Kingdom,01138733427,,07351751830,,zain.hussain10@gmail.com,Leeds,69,Ansar,02/12/1956,,,0
+12636,4234,Wife,Active,Aleena Hussain,Married,Flat 12,"Rose House, 90 Queens Road",Northfield,,Leeds,LS8 3NR,United Kingdom,01138733427,,07540331739,,aleena.hussain31@outlook.com,Leeds,64,Lajna,06/06/1962,,,0
+12672,4234,Daughter,Active,Sumaira Hussain,Single,Flat 12,"Rose House, 90 Queens Road",Northfield,,Leeds,LS8 3NR,United Kingdom,01138733427,,07877175355,,sumaira.hussain95@hotmail.co.uk,Leeds,17,Lajna,28/10/2008,,,0
+12682,4234,Son,Active,Zain Hussain,Single,Flat 12,"Rose House, 90 Queens Road",Northfield,,Leeds,LS8 3NR,United Kingdom,01138733427,,07785477725,,zain.hussain24@outlook.com,Leeds,23,Khuddam,13/06/2003,32073,M,0
+12717,4235,Self,Active,Ibrahim Ahmad,Single,215 Cedar Drive,,St Johns,,Leeds,LS8 1AS,United Kingdom,01133120387,,07600848408,,ibrahim.ahmad23@outlook.com,Leeds,41,Ansar,26/03/1985,,,0
+12724,4237,Self,Active,Ibrahim Malik,Married,Flat 7,"Rose House, 35 Grange Road",Northfield,,Leeds,LS8 2QR,United Kingdom,01133341016,01136591803,07397401489,,ibrahim.malik41@hotmail.co.uk,Leeds,40,Ansar,10/10/1985,32074,M,0
+12726,4237,Wife,Active,Aleena Malik,Married,Flat 7,"Rose House, 35 Grange Road",Northfield,,Leeds,LS8 2QR,United Kingdom,01133341016,01132939685,07621850163,,aleena.malik78@yahoo.co.uk,Leeds,38,Lajna,08/12/1987,32127,M,0
+12752,4237,Son,Active,Waseem Malik,Single,Flat 7,"Rose House, 35 Grange Road",Northfield,,Leeds,LS8 2QR,United Kingdom,01133341016,,,,,Leeds,10,Atfal,11/11/2015,,,0
+12767,4237,Daughter,Active,Amina Malik,Single,Flat 7,"Rose House, 35 Grange Road",Northfield,,Leeds,LS8 2QR,United Kingdom,01133341016,,,,,Leeds,11,Nasirat,14/12/2014,,,0
+12792,4239,Self,Active,Masroor Warraich,Married,205 London Road,,,,Bradford,BD3 3RF,United Kingdom,,,07121267888,,masroor.warraich12@gmail.com,Bradford,46,Ansar,28/02/1980,32147,M,0
+12815,4239,Wife,Active,Ayesha Warraich,Married,205 London Road,,,,Bradford,BD3 3RF,United Kingdom,,,07046618398,,ayesha.warraich22@outlook.com,Bradford,42,Lajna,07/04/1984,,,0
+12824,4239,Daughter,Active,Rabia Warraich,Single,205 London Road,,,,Bradford,BD3 3RF,United Kingdom,,,07715437993,,rabia.warraich39@hotmail.co.uk,Bradford,15,Lajna,08/10/2010,32158,M,0
+12825,4239,Daughter,Active,Hafsa Warraich,Single,205 London Road,,,,Bradford,BD3 3RF,United Kingdom,,,,,,Bradford,14,Nasirat,14/03/2012,,,0
+12854,4245,Self,Active,Ismail Ghuman,Married,Flat 5,"Rose House, 78 Kings Avenue",,,Birmingham,B16 8PG,United Kingdom,,,07465193982,,ismail.ghuman94@gmail.com,Birmingham West,46,Ansar,19/05/1980,,,0
+12884,4245,Wife,Active,Nusrat Ghuman,Married,Flat 5,"Rose House, 78 Kings Avenue",,,Birmingham,B16 8PG,United Kingdom,,,07672434266,,nusrat.ghuman75@outlook.com,Birmingham West,41,Lajna,08/05/1985,,,0
+12910,4245,Daughter,Active,Sadia Ghuman,Single,Flat 5,"Rose House, 78 Kings Avenue",,,Birmingham,B16 8PG,United Kingdom,,,,,,Birmingham West,8,Nasirat,10/12/2017,,,0
+12945,4245,Son,Active,Zafar Ghuman,Single,Flat 5,"Rose House, 78 Kings Avenue",,,Birmingham,B16 8PG,United Kingdom,,,07096561014,,zafar.ghuman58@hotmail.co.uk,Birmingham West,18,Khuddam,14/03/2008,,,0
+12969,4245,Daughter,Active,Samina Ghuman,Single,Flat 5,"Rose House, 78 Kings Avenue",,,Birmingham,B16 8PG,United Kingdom,,,,,,Birmingham West,10,Nasirat,19/02/2016,,,0
+12992,4245,Son,Active,Bashir Ghuman,Single,Flat 5,"Rose House, 78 Kings Avenue",,,Birmingham,B16 8PG,United Kingdom,,,,,,Birmingham West,10,Atfal,29/07/2016,,,0
+12998,4247,Self,Active,Mubarak Mirza,Married,Flat 11,"Elm House, 67 High Street",,,London,SW17 8ET,United Kingdom,,,07238282586,,mubarak.mirza52@hotmail.co.uk,Tooting,34,Khuddam,04/05/1992,32204,M,52699
+13010,4247,Wife,Active,Noor Mirza,Married,Flat 11,"Elm House, 67 High Street",,,London,SW17 8ET,United Kingdom,,,07796603341,,noor.mirza47@hotmail.co.uk,Tooting,32,Lajna,20/05/1994,,,0
+13031,4247,Daughter,Active,Shazia Mirza,Single,Flat 11,"Elm House, 67 High Street",,,London,SW17 8ET,United Kingdom,,,,,,Tooting,11,Nasirat,22/05/2015,,,0
+13052,4254,Self,Active,Khalid Rana,Married,Flat 4,"Rose House, 59 Elm Grove",,,Bradford,BD3 5ZY,United Kingdom,01274251341,01274662782,07827422579,,khalid.rana2@yahoo.co.uk,Bradford,58,Ansar,04/03/1968,,,0
+13084,4254,Wife,Inactive,Nusrat Rana,Married,Flat 4,"Rose House, 59 Elm Grove",,,Bradford,BD3 5ZY,United Kingdom,01274251341,,07767677219,07340438427,nusrat.rana71@outlook.com,Bradford,56,Lajna,08/12/1969,,,0
+13117,4256,Self,Active,Zafar Latif,Married,211 Grange Road,,St Johns,,Southall,UB1 8XH,United Kingdom,,,07171339596,,zafar.latif27@hotmail.co.uk,Southall,65,Ansar,08/12/1960,32207,M,0
+13131,4256,Wife,Active,Sadia Latif,Married,211 Grange Road,,St Johns,,Southall,UB1 8XH,United Kingdom,,,07254494812,,sadia.latif8@outlook.com,Southall,60,Lajna,14/06/1966,,,0
+13149,4256,Son,Active,Khalid Latif,Single,211 Grange Road,,St Johns,,Southall,UB1 8XH,United Kingdom,,,07729466711,,khalid.latif89@yahoo.co.uk,Southall,23,Khuddam,13/12/2002,,,0
+13173,4264,Self,Active,Ismail Shah,Married,149 Kings Avenue,,Northfield,,Coventry,CV1 6DX,United Kingdom,02463745458,,07017012770,,ismail.shah26@outlook.com,Coventry,63,Ansar,20/06/1963,,,0
+13182,4264,Wife,Active,Noor Shah,Married,149 Kings Avenue,,Northfield,,Coventry,CV1 6DX,United Kingdom,02463745458,,07154152064,,noor.shah55@hotmail.co.uk,Coventry,57,Lajna,30/05/1969,,,0
+13188,4265,Self,Active,Ayaan Hussain,Married,20 Mill Lane,,St Johns,,Hounslow,TW3 8AA,United Kingdom,,,07111554262,,ayaan.hussain9@hotmail.co.uk,Hounslow North,64,Ansar,27/07/1962,,,0
+13222,4265,Wife,Active,Amatul Hussain,Married,20 Mill Lane,,St Johns,,Hounslow,TW3 8AA,United Kingdom,,,07326973112,,amatul.hussain45@outlook.com,Hounslow North,60,Lajna,22/09/1966,,,0
+13250,4265,Son,Active,Waseem Hussain,Single,20 Mill Lane,,St Johns,,Hounslow,TW3 8AA,United Kingdom,,,07043898364,,waseem.hussain64@hotmail.co.uk,Hounslow North,23,Khuddam,12/11/2002,,,52738
+13275,4265,Son,Inactive,Ismail Hussain,Single,20 Mill Lane,,St Johns,,Hounslow,TW3 8AA,United Kingdom,,,07269658271,07104300684,ismail.hussain55@outlook.com,Hounslow North,24,Khuddam,25/07/2002,,,52739
+13301,4267,Self,Active,Danyal Latif,Married,138 Station Road,,,,Glasgow,G41 5DW,United Kingdom,,,07146303161,,danyal.latif40@gmail.com,Glasgow,61,Ansar,09/09/1965,,,0
+13313,4267,Wife,Active,Amatul Latif,Married,138 Station Road,,,,Glasgow,G41 5DW,United Kingdom,,,07588425241,,amatul.latif43@gmail.com,Glasgow,59,Lajna,11/05/1967,,,0
+13341,4267,Son,Active,Tahir Latif,Single,138 Station Road,,,,Glasgow,G41 5DW,United Kingdom,,,07252419138,07030756220,tahir.latif29@outlook.com,Glasgow,23,Khuddam,19/07/2003,,,0
+13362,4267,Son,Active,Ataul Latif,Single,138 Station Road,,,,Glasgow,G41 5DW,United Kingdom,,,07023806174,,ataul.latif42@yahoo.co.uk,Glasgow,16,Khuddam,03/06/2010,32212,M,0
+13368,4276,Self,Active,Zafar Khan,Married,Flat 7,"Rose House, 80 Victoria Road",Northfield,,Coventry,CV1 6YU,United Kingdom,,,07505064138,,zafar.khan63@outlook.com,Coventry,57,Ansar,13/04/1969,32272,M,0
+13372,4276,Wife,Active,Tahira Khan,Married,Flat 7,"Rose House, 80 Victoria Road",Northfield,,Coventry,CV1 6YU,United Kingdom,,,07865719182,,tahira.khan10@outlook.com,Coventry,55,Lajna,29/01/1971,32275,M,0
+13409,4283,Self,Active,Ataul Malik,Married,Flat 10,"Rose House, 51 Kings Avenue",Hillside,,Glasgow,G41 6PT,United Kingdom,01411329121,,07374741124,,ataul.malik28@gmail.com,Glasgow,60,Ansar,01/07/1966,,,0
+13430,4283,Wife,Inactive,Ayesha Malik,Married,Flat 10,"Rose House, 51 Kings Avenue",Hillside,,Glasgow,G41 6PT,United Kingdom,01411329121,,07044206788,,ayesha.malik14@outlook.com,Glasgow,58,Lajna,29/04/1968,,,0
+13439,4284,Self,Active,Yusuf Bajwa,Single,Flat 7,"Rose House, 88 Oak Close",St Johns,,Morden,SM4 2YY,United Kingdom,02010137215,,07670662532,,yusuf.bajwa20@outlook.com,Baitul Futuh,64,Ansar,28/09/1962,32335,M,0
+13442,4288,Self,Active,Muhammad Warraich,Married,Flat 14,"Oak House, 12 Station Road",Northfield,,Glasgow,G41 3SH,United Kingdom,,,07875985642,07930407859,muhammad.warraich21@hotmail.co.uk,Glasgow,52,Ansar,07/02/1974,,,0
+13449,4288,Wife,Active,Samina Warraich,Married,Flat 14,"Oak House, 12 Station Road",Northfield,,Glasgow,G41 3SH,United Kingdom,,,07039652239,,samina.warraich76@yahoo.co.uk,Glasgow,50,Lajna,28/06/1976,32370,M,0
+13451,4288,Son,Active,Ismail Warraich,Single,Flat 14,"Oak House, 12 Station Road",Northfield,,Glasgow,G41 3SH,United Kingdom,,,07393087059,,ismail.warraich44@hotmail.co.uk,Glasgow,21,Khuddam,12/03/2005,,,52742
+13463,4288,Daughter,Active,Amatul Warraich,Single,Flat 14,"Oak House, 12 Station Road",Northfield,,Glasgow,G41 3SH,United Kingdom,,,07515691545,,amatul.warraich94@hotmail.co.uk,Glasgow,27,Lajna,03/06/1999,32416,M,0
+13491,4296,Self,Active,Ahmad Shah,Single,Flat 23,"Elm House, 86 Elm Grove",Hillside,,Glasgow,G41 3RN,United Kingdom,,,07902959391,,ahmad.shah43@hotmail.co.uk,Glasgow,48,Ansar,04/03/1978,,,0
+13496,4300,Self,Active,Zain Shah,Married,43 Cedar Drive,,St Johns,,Tilford,GU10 6TA,United Kingdom,01252315410,,07658617932,,zain.shah38@gmail.com,Islamabad,70,Ansar,26/01/1956,,,0
+13498,4300,Wife,Active,Shazia Shah,Married,43 Cedar Drive,,St Johns,,Tilford,GU10 6TA,United Kingdom,01252315410,,07621815997,,shazia.shah84@outlook.com,Islamabad,67,Lajna,08/11/1958,,,0
+13509,4300,Daughter,Active,Sadia Shah,Single,43 Cedar Drive,,St Johns,,Tilford,GU10 6TA,United Kingdom,01252315410,,07844431069,,sadia.shah20@outlook.com,Islamabad,27,Lajna,18/10/1998,32430,M,0
+13513,4300,Daughter,Active,Khadija Shah,Single,43 Cedar Drive,,St Johns,,Tilford,GU10 6TA,United Kingdom,01252315410,,07032417146,,khadija.shah12@yahoo.co.uk,Islamabad,34,Lajna,03/12/1991,32483,M,0
+13548,4300,Daughter,Active,Sana Shah,Single,43 Cedar Drive,,St Johns,,Tilford,GU10 6TA,United Kingdom,01252315410,,07743490211,,sana.shah97@outlook.com,Islamabad,26,Lajna,17/01/2000,,,0
+13563,4300,Son,Active,Zain Shah,Single,43 Cedar Drive,,St Johns,,Tilford,GU10 6TA,United Kingdom,01252315410,,07937416089,,zain.shah16@hotmail.co.uk,Islamabad,17,Khuddam,11/02/2009,,,0
+13592,4303,Self,Active,Naeem Qureshi,Married,207 Gressenhall Road,,Northfield,,London,SW17 2SH,United Kingdom,,,07168685487,,naeem.qureshi90@gmail.com,Tooting,61,Ansar,06/01/1965,,,0
+13626,4303,Wife,Active,Khadija Qureshi,Married,207 Gressenhall Road,,Northfield,,London,SW17 2SH,United Kingdom,,,07119148564,,khadija.qureshi74@outlook.com,Tooting,56,Lajna,25/05/1970,32493,M,0
+13657,4306,Self,Active,Mubarak Rana,Single,Flat 20,"Oak House, 51 Mosque Lane",,,Southall,UB1 4BU,United Kingdom,,,07132475469,,mubarak.rana57@hotmail.co.uk,Southall,41,Ansar,01/03/1985,,,0
+13671,4313,Self,Active,Muhammad Rehman,Single,96 Mill Lane,,Hillside,,Coventry,CV1 3DN,United Kingdom,,,07705345786,,muhammad.rehman88@gmail.com,Coventry,38,Khuddam,10/12/1987,32550,M,0
+13673,4317,Self,Active,Usman Hussain,Married,153 Cedar Drive,,Northfield,,Tilford,GU10 9QQ,United Kingdom,01252414060,,07468007229,,usman.hussain33@hotmail.co.uk,Islamabad,60,Ansar,14/05/1966,,,0
+13693,4317,Wife,Active,Tahira Hussain,Married,153 Cedar Drive,,Northfield,,Tilford,GU10 9QQ,United Kingdom,01252414060,,07574374896,,tahira.hussain66@gmail.com,Islamabad,55,Lajna,12/05/1971,,,0
+13717,4317,Daughter,Active,Samina Hussain,Single,153 Cedar Drive,,Northfield,,Tilford,GU10 9QQ,United Kingdom,01252414060,,07544432830,,samina.hussain85@outlook.com,Islamabad,21,Lajna,20/02/2005,32555,M,0
+13738,4317,Son,Active,Ismail Hussain,Single,153 Cedar Drive,,Northfield,,Tilford,GU10 9QQ,United Kingdom,01252414060,,07099353875,,ismail.hussain85@hotmail.co.uk,Islamabad,33,Khuddam,22/11/1992,,,0
+13774,4317,Son,Active,Bashir Hussain,Single,153 Cedar Drive,,Northfield,,Tilford,GU10 9QQ,United Kingdom,01252414060,,07825135346,,bashir.hussain48@yahoo.co.uk,Islamabad,21,Khuddam,05/12/2004,,,0
+13791,4317,Daughter,Active,Fatima Hussain,Single,153 Cedar Drive,,Northfield,,Tilford,GU10 9QQ,United Kingdom,01252414060,,,,,Islamabad,14,Nasirat,21/07/2012,,,0
+13796,4325,Self,Active,Nasir Rehman,Married,Flat 28,"Rose House, 53 Gressenhall Road",Hillside,,Hounslow,TW3 3FH,United Kingdom,02097252175,,07927129666,,nasir.rehman50@outlook.com,Hounslow North,59,Ansar,13/08/1967,32573,M,0
+13797,4325,Wife,Inactive,Iqra Rehman,Married,Flat 28,"Rose House, 53 Gressenhall Road",Hillside,,Hounslow,TW3 3FH,United Kingdom,02097252175,,07830033542,,iqra.rehman22@yahoo.co.uk,Hounslow North,57,Lajna,28/10/1968,32597,M,0
+13802,4330,Self,Active,Mahmood Iqbal,Single,Flat 17,"Park House, 88 Church Street",,,Southall,UB1 8QH,United Kingdom,02060332309,,07909010016,,mahmood.iqbal71@gmail.com,Southall,59,Ansar,29/11/1966,,,0
+13819,4338,Self,Active,Bashir Qureshi,Married,178 Station Road,,Northfield,,London,SW17 2WL,United Kingdom,,,07173934835,,bashir.qureshi21@yahoo.co.uk,Tooting,62,Ansar,21/01/1964,,,0
+13822,4338,Wife,Active,Rabia Qureshi,Married,178 Station Road,,Northfield,,London,SW17 2WL,United Kingdom,,,07300119721,,rabia.qureshi93@gmail.com,Tooting,58,Lajna,16/02/1968,,,0
+13829,4338,Son,Active,Saleem Qureshi,Single,178 Station Road,,Northfield,,London,SW17 2WL,United Kingdom,,,,,,Tooting,14,Atfal,28/03/2012,,,0
+13841,4338,Son,Active,Sajid Qureshi,Single,178 Station Road,,Northfield,,London,SW17 2WL,United Kingdom,,,07100225579,,sajid.qureshi48@gmail.com,Tooting,21,Khuddam,13/10/2004,,,0
+13863,4341,Self,Active,Shahid Rana,Married,Flat 15,"Park House, 89 Cedar Drive",Northfield,,Mitcham,CR4 7GE,United Kingdom,02002169797,,07277167014,,shahid.rana91@gmail.com,Mitcham,58,Ansar,05/01/1968,,,0
+13897,4341,Wife,Active,Bushra Rana,Married,Flat 15,"Park House, 89 Cedar Drive",Northfield,,Mitcham,CR4 7GE,United Kingdom,02002169797,,07588916375,,bushra.rana20@outlook.com,Mitcham,53,Lajna,24/04/1973,,,0
+13933,4341,Son,Active,Tariq Rana,Single,Flat 15,"Park House, 89 Cedar Drive",Northfield,,Mitcham,CR4 7GE,United Kingdom,02002169797,,07753540838,,tariq.rana31@outlook.com,Mitcham,32,Khuddam,09/04/1994,,,0
+13939,4341,Daughter,Active,Aleena Rana,Single,Flat 15,"Park House, 89 Cedar Drive",Northfield,,Mitcham,CR4 7GE,United Kingdom,02002169797,,,,,Mitcham,13,Nasirat,03/09/2013,,,0
+13968,4341,Daughter,Active,Rabia Rana,Single,Flat 15,"Park House, 89 Cedar Drive",Northfield,,Mitcham,CR4 7GE,United Kingdom,02002169797,,07019948837,,rabia.rana7@yahoo.co.uk,Mitcham,27,Lajna,27/01/1999,,,52768
+13983,4341,Daughter,Active,Iqra Rana,Single,Flat 15,"Park House, 89 Cedar Drive",Northfield,,Mitcham,CR4 7GE,United Kingdom,02002169797,,07571130554,,iqra.rana90@yahoo.co.uk,Mitcham,18,Lajna,22/08/2008,,,0
+13990,4342,Self,Active,Hamid Hussain,Married,Flat 27,"Oak House, 33 Elm Grove",,,London,SW17 4ER,United Kingdom,02035160917,,07978292216,,hamid.hussain65@yahoo.co.uk,Tooting,33,Khuddam,13/10/1992,,,52772
+14015,4342,Wife,Active,Hafsa Hussain,Married,Flat 27,"Oak House, 33 Elm Grove",,,London,SW17 4ER,United Kingdom,02035160917,,07472269848,,hafsa.hussain26@hotmail.co.uk,Tooting,30,Lajna,17/02/1996,,,0
+14029,4342,Daughter,Active,Samina Hussain,Single,Flat 27,"Oak House, 33 Elm Grove",,,London,SW17 4ER,United Kingdom,02035160917,,,,,Tooting,8,Nasirat,08/09/2018,,,52784
+14050,4342,Son,Active,Ibrahim Hussain,Single,Flat 27,"Oak House, 33 Elm Grove",,,London,SW17 4ER,United Kingdom,02035160917,,,,,Tooting,8,Atfal,22/09/2018,,,0
+14077,4342,Daughter,Active,Amatul Hussain,Single,Flat 27,"Oak House, 33 Elm Grove",,,London,SW17 4ER,United Kingdom,02035160917,,,,,Tooting,7,Nasirat,13/02/2019,,,0
+14087,4342,Son,Active,Faisal Hussain,Single,Flat 27,"Oak House, 33 Elm Grove",,,London,SW17 4ER,United Kingdom,02035160917,,,,,Tooting,9,Atfal,24/01/2017,,,0
+14106,4347,Self,Active,Haris Ahmad,Married,Flat 26,"Elm House, 70 Gressenhall Road",,,London,SW17 8EZ,United Kingdom,,,07066658004,,haris.ahmad29@outlook.com,Tooting,54,Ansar,16/11/1971,32648,M,0
+14130,4347,Wife,Active,Aleena Ahmad,Married,Flat 26,"Elm House, 70 Gressenhall Road",,,London,SW17 8EZ,United Kingdom,,,07347212281,,aleena.ahmad36@outlook.com,Tooting,49,Lajna,08/02/1977,,,0
+14166,4347,Son,Active,Naeem Ahmad,Single,Flat 26,"Elm House, 70 Gressenhall Road",,,London,SW17 8EZ,United Kingdom,,,07590947985,,naeem.ahmad68@yahoo.co.uk,Tooting,25,Khuddam,11/05/2001,32678,M,0
+14181,4347,Son,Active,Tahir Ahmad,Single,Flat 26,"Elm House, 70 Gressenhall Road",,,London,SW17 8EZ,United Kingdom,,,07153355543,,tahir.ahmad72@outlook.com,Tooting,17,Khuddam,04/06/2009,,,52819

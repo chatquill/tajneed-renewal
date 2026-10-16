@@ -8,36 +8,42 @@
 
   const KEY_DATA = 'tajneed:data';
   const KEY_CURRENT = 'tajneed:current';
-  const KEY_EDITOR = 'tajneed:editor';
   const MAX_RESULTS = 300;
 
-  // Known columns. Anything else in the file still shows up, under "Other".
+  // Columns of the tajneed sheet (header "AMJS ID" -> key "amjs_id").
+  // Any other column in the file still shows up, under "Other".
   const FIELDS = {
-    aims_id: { label: 'AIMS ID', section: 'Personal' },
-    full_name: { label: 'Full name', section: 'Personal' },
-    father_or_husband_name: { label: "Father's / husband's name", section: 'Personal' },
-    gender: { label: 'Gender', section: 'Personal', options: ['Male', 'Female'] },
-    date_of_birth: { label: 'Date of birth', section: 'Personal', type: 'date' },
-    marital_status: { label: 'Marital status', section: 'Personal', options: ['Single', 'Married', 'Divorced', 'Widowed'] },
-    phone: { label: 'Phone', section: 'Contact', type: 'tel' },
-    email: { label: 'Email', section: 'Contact', type: 'email' },
-    address: { label: 'Address', section: 'Contact', wide: true, textarea: true },
-    postcode: { label: 'Postcode', section: 'Contact' },
-    auxiliary: { label: 'Auxiliary', section: 'Jamaat', options: ['Atfal', 'Khuddam', 'Ansar', 'Nasirat', 'Lajna'] },
-    majlis: { label: 'Majlis / Jamaat', section: 'Jamaat', suggest: true },
-    region: { label: 'Region', section: 'Jamaat', suggest: true },
-    family_id: { label: 'Family ID', section: 'Family' },
-    head_of_household: { label: 'Head of household', section: 'Family', options: ['Yes', 'No'] },
-    relationship_to_head: { label: 'Relationship to head', section: 'Family', suggest: true },
-    last_verified_date: { label: 'Last verified', section: 'Record', type: 'date' },
-    verified_by: { label: 'Verified by', section: 'Record', hideInView: true },
-    notes: { label: 'Notes (not shown to member)', section: 'Record', wide: true, textarea: true, hideInView: true },
+    amjs_id: { label: 'AMJS ID', section: 'Member' },
+    name: { label: 'Name', section: 'Member', wide: true },
+    date_of_birth: { label: 'Date of Birth', section: 'Member', date: true },
+    age: { label: 'Age', section: 'Member', readonly: true },
+    marital_status: { label: 'Marital Status', section: 'Member', suggest: ['Single', 'Married', 'Divorced', 'Widowed'] },
+    tanzeem: { label: 'Tanzeem', section: 'Member', suggest: ['Atfal', 'Khuddam', 'Ansar', 'Nasirat', 'Lajna'] },
+    branch: { label: 'Branch', section: 'Member', suggest: [] },
+    record_status: { label: 'Record Status', section: 'Member', suggest: ['Active', 'Inactive'], hideInView: true },
+    mobile: { label: 'Mobile', section: 'Contact', type: 'tel' },
+    telephone_res: { label: 'Telephone (Home)', section: 'Contact', type: 'tel' },
+    telephone_work: { label: 'Telephone (Work)', section: 'Contact', type: 'tel' },
+    telephone_other: { label: 'Telephone (Other)', section: 'Contact', type: 'tel' },
+    email: { label: 'Email', section: 'Contact', type: 'email', wide: true },
+    address_1: { label: 'Address 1', section: 'Address', address: true },
+    address_2: { label: 'Address 2', section: 'Address', address: true },
+    address_3: { label: 'Address 3', section: 'Address', address: true },
+    address_4: { label: 'Address 4', section: 'Address', address: true },
+    city: { label: 'City', section: 'Address', address: true, suggest: [] },
+    post_code: { label: 'Post Code', section: 'Address', address: true },
+    country: { label: 'Country', section: 'Address', address: true, suggest: ['United Kingdom'] },
+    family_code: { label: 'Family Code', section: 'Family' },
+    relationship_to_hof: { label: 'Relationship to Head of Family', section: 'Family', suggest: ['Self', 'Wife', 'Husband', 'Son', 'Daughter', 'Mother', 'Father'] },
+    wasiyyat_number: { label: 'Wasiyyat Number', section: 'Wasiyyat & Waqf-e-Nau' },
+    wasiyyat_status: { label: 'Wasiyyat Status', section: 'Wasiyyat & Waqf-e-Nau', suggest: ['M'] },
+    waqf_e_nau_number: { label: 'Waqf-e-Nau Number', section: 'Wasiyyat & Waqf-e-Nau', zeroIsNone: true },
   };
-  const SECTIONS = ['Personal', 'Contact', 'Jamaat', 'Family', 'Record', 'Other'];
+  const SECTIONS = ['Member', 'Contact', 'Address', 'Family', 'Wasiyyat & Waqf-e-Nau', 'Other'];
 
   // Header names accepted for the two required columns.
-  const ID_KEYS = ['aims_id', 'aims', 'aims_no', 'aims_number', 'member_id', 'id'];
-  const NAME_KEYS = ['full_name', 'name', 'member_name'];
+  const ID_KEYS = ['amjs_id', 'aims_id', 'amjs', 'aims', 'member_id', 'id'];
+  const NAME_KEYS = ['name', 'full_name', 'member_name'];
 
   const $ = (id) => document.getElementById(id);
 
@@ -171,10 +177,10 @@
       table = parseCsv(await file.text());
     } else {
       if (typeof XLSX === 'undefined') throw new Error('Excel support missing (vendor/xlsx.mini.min.js not found).');
-      const wb = XLSX.read(await file.arrayBuffer(), { type: 'array', cellDates: true });
+      const wb = XLSX.read(await file.arrayBuffer(), { type: 'array', cellDates: true, dateNF: 'dd/mm/yyyy' });
       sheetCount = wb.SheetNames.length;
       const ws = wb.Sheets[wb.SheetNames[0]];
-      table = XLSX.utils.sheet_to_json(ws, { header: 1, defval: '', raw: false, dateNF: 'yyyy-mm-dd', blankrows: false })
+      table = XLSX.utils.sheet_to_json(ws, { header: 1, defval: '', raw: false, dateNF: 'dd/mm/yyyy', blankrows: false })
         .map((r) => r.map((v) => String(v)));
     }
     if (table.length < 1) throw new Error('The file is empty.');
@@ -306,11 +312,30 @@
     return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
   }
 
+  // Accepts dd/mm/yyyy (UK) or yyyy-mm-dd. Returns a Date or null.
+  function parseDate(v) {
+    v = String(v || '').trim();
+    let m = v.match(/^(\d{1,2})[/.-](\d{1,2})[/.-](\d{4})$/);
+    let y, mo, d;
+    if (m) { d = +m[1]; mo = +m[2]; y = +m[3]; }
+    else if ((m = v.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/))) { y = +m[1]; mo = +m[2]; d = +m[3]; }
+    else return null;
+    const date = new Date(y, mo - 1, d);
+    return date.getMonth() === mo - 1 && date.getDate() === d ? date : null;
+  }
+
+  function ageFrom(v) {
+    const dob = parseDate(v);
+    if (!dob) return '';
+    const now = new Date();
+    let age = now.getFullYear() - dob.getFullYear();
+    if (now.getMonth() < dob.getMonth() || (now.getMonth() === dob.getMonth() && now.getDate() < dob.getDate())) age--;
+    return age >= 0 ? String(age) : '';
+  }
+
   function prettyDate(v) {
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(v)) return v;
-    const d = new Date(v + 'T00:00:00');
-    if (isNaN(d)) return v;
-    return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+    const d = parseDate(v);
+    return d ? d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }) : v;
   }
 
   function toast(msg, warn) {
@@ -335,7 +360,6 @@
       $('edit-screen').hidden = false;
       this.data = loadData();
       this.fileHandle = await handleStore.get();
-      $('editor-name').value = localStorage.getItem(KEY_EDITOR) || '';
 
       $('load-file').onclick = () => this.pickFile();
       $('load-file-empty').onclick = () => this.pickFile();
@@ -352,9 +376,6 @@
       $('member-form').onsubmit = (e) => { e.preventDefault(); this.save(); };
       $('member-form').oninput = (e) => this.markDirty(e.target);
       $('member-form').onchange = (e) => this.markDirty(e.target);
-      $('editor-name').oninput = (e) => {
-        try { localStorage.setItem(KEY_EDITOR, e.target.value); } catch (err) { /* ignore */ }
-      };
       window.addEventListener('beforeunload', (e) => {
         if (this.dirty) { e.preventDefault(); e.returnValue = ''; }
       });
@@ -444,7 +465,7 @@
         (items.length > shown.length ? ' (showing first ' + shown.length + ')' : '');
       $('member-list').innerHTML = shown.map((e) => {
         const r = e.row;
-        const meta = [e.id, r.majlis, r.auxiliary].filter(Boolean).map(escapeHtml).join(' · ');
+        const meta = [e.id, r.branch, r.tanzeem].filter(Boolean).map(escapeHtml).join(' · ');
         const cls = [e.id === this.selectedId ? 'selected' : '', changed.has(e.id) ? 'changed' : ''].join(' ');
         return '<li data-id="' + escapeHtml(e.id) + '" class="' + cls + '">' +
           '<div class="name">' + escapeHtml(r[d.nameKey]) + '</div><div class="meta">' + meta + '</div></li>';
@@ -472,8 +493,11 @@
     renderForm(row) {
       const d = this.data;
       $('form-title').textContent = row[d.nameKey] + ' (' + row[d.idKey] + ')';
+      // Group by section, in the order FIELDS lists them (unknown columns last)
+      const order = Object.keys(FIELDS);
+      const rank = (k) => (order.includes(k) ? order.indexOf(k) : order.length);
       const bySection = {};
-      d.columns.forEach((c) => {
+      d.columns.slice().sort((a, b) => rank(a.key) - rank(b.key)).forEach((c) => {
         const def = fieldDef(c.key);
         (bySection[def.section] = bySection[def.section] || []).push(c);
       });
@@ -487,21 +511,17 @@
           const v = row[c.key] == null ? '' : row[c.key];
           const id = 'f_' + c.key;
           let input;
-          if (def.options) {
-            const opts = def.options.includes(v) || v === '' ? def.options : [v].concat(def.options);
-            input = '<select id="' + id + '" name="' + c.key + '"><option value=""></option>' +
-              opts.map((o) => '<option' + (o === v ? ' selected' : '') + '>' + escapeHtml(o) + '</option>').join('') +
-              '</select>';
-          } else if (def.textarea) {
-            input = '<textarea id="' + id + '" name="' + c.key + '" rows="2">' + escapeHtml(v) + '</textarea>';
+          const attrs = ' id="' + id + '" name="' + c.key + '" value="' + escapeHtml(v) + '"';
+          if (def.readonly) {
+            input = '<input' + attrs + ' readonly tabindex="-1">';
+          } else if (def.date) {
+            input = '<input' + attrs + ' placeholder="dd/mm/yyyy">';
+          } else if (def.suggest) {
+            const values = Array.from(new Set(def.suggest.concat(d.rows.map((r) => r[c.key])).filter(Boolean))).sort();
+            input = '<input' + attrs + ' list="dl_' + c.key + '" autocomplete="off">' +
+              '<datalist id="dl_' + c.key + '">' + values.map((x) => '<option value="' + escapeHtml(x) + '">').join('') + '</datalist>';
           } else {
-            const type = def.type === 'date' && !/^\d{4}-\d{2}-\d{2}$/.test(v) && v ? 'text' : (def.type || 'text');
-            const list = def.suggest ? ' list="dl_' + c.key + '"' : '';
-            input = '<input id="' + id + '" name="' + c.key + '" type="' + type + '" value="' + escapeHtml(v) + '"' + list + '>';
-            if (def.suggest) {
-              const values = Array.from(new Set(d.rows.map((r) => r[c.key]).filter(Boolean))).sort();
-              input += '<datalist id="dl_' + c.key + '">' + values.map((x) => '<option value="' + escapeHtml(x) + '">').join('') + '</datalist>';
-            }
+            input = '<input' + attrs + ' type="' + (def.type || 'text') + '">';
           }
           html += '<div class="field' + (def.wide ? ' wide' : '') + '"><label for="' + id + '">' +
             escapeHtml(def.label) + '</label>' + input + '</div>';
@@ -513,6 +533,11 @@
     markDirty(el) {
       if (!el.name || !this.selectedId) return;
       const row = this.findRow(this.selectedId);
+      // Age follows Date of Birth
+      if (el.name === 'date_of_birth' && $('f_age')) {
+        const age = ageFrom(el.value);
+        if (age) { $('f_age').value = age; this.markDirty($('f_age')); }
+      }
       el.closest('.field').classList.toggle('dirty', el.value !== (row[el.name] || ''));
       this.dirty = !!$('form-fields').querySelector('.field.dirty');
     },
@@ -527,13 +552,12 @@
         if (el) updated[c.key] = el.value.trim();
       });
       const newId = String(updated[d.idKey]);
-      if (!newId) { alert('AIMS ID cannot be empty.'); return; }
+      if (!newId) { alert('AMJS ID cannot be empty.'); return; }
       if (newId !== this.selectedId && this.findRow(newId)) {
-        alert('Another member already has AIMS ID ' + newId + '.'); return;
+        alert('Another member already has AMJS ID ' + newId + '.'); return;
       }
-      if ('last_verified_date' in updated) updated.last_verified_date = todayIso();
-      const editor = $('editor-name').value.trim();
-      if ('verified_by' in updated && editor) updated.verified_by = editor;
+      if (updated.date_of_birth && !parseDate(updated.date_of_birth) &&
+          !confirm('Date of Birth "' + updated.date_of_birth + '" is not in dd/mm/yyyy format. Save anyway?')) return;
 
       Object.assign(row, updated);
       d.changed = d.changed.filter((x) => x !== this.selectedId && x !== newId);
@@ -595,6 +619,7 @@
     start() {
       $('view-screen').hidden = false;
       document.title = 'Tajneed - View';
+      window.addEventListener('resize', () => this.fit());
       window.addEventListener('storage', (e) => {
         if (e.key === KEY_DATA || e.key === KEY_CURRENT || e.key === null) this.render();
       });
@@ -616,31 +641,72 @@
       if (sameMember && !changedKeys.length) return;
 
       $('view-name').textContent = row[data.nameKey];
-      const bySection = {};
-      data.columns.forEach((c) => {
-        const def = fieldDef(c.key);
-        if (def.hideInView) return;
-        (bySection[def.section] = bySection[def.section] || []).push(c);
-      });
-      $('view-sections').innerHTML = SECTIONS.filter((s) => bySection[s]).map((s) =>
-        '<div class="view-section"><h2>' + s + '</h2><div class="view-grid">' +
-        bySection[s].map((c) => {
-          const def = fieldDef(c.key);
-          const v = row[c.key] || '';
-          const shown = def.type === 'date' ? prettyDate(v) : v;
-          return '<div class="view-item' + (def.wide ? ' wide' : '') + (changedKeys.includes(c.key) ? ' flash' : '') + '">' +
-            '<div class="label">' + escapeHtml(def.label) + '</div>' +
-            '<div class="value' + (v ? '' : ' blank') + '">' + (v ? escapeHtml(shown) : 'Not given') + '</div></div>';
-        }).join('') + '</div></div>').join('');
+      $('view-id').textContent = data.idKey in FIELDS ? FIELDS[data.idKey].label + ' ' + row[data.idKey] : row[data.idKey];
+
+      const has = (k) => data.columns.some((c) => c.key === k);
+      const item = (label, keys, value, opts) => {
+        opts = opts || {};
+        const flash = keys.some((k) => changedKeys.includes(k));
+        const blank = !value;
+        return '<div class="view-item' + (opts.wide ? ' wide' : '') + (flash ? ' flash' : '') + '">' +
+          '<div class="label">' + escapeHtml(label) + '</div>' +
+          '<div class="value' + (blank ? ' blank' : '') + (opts.multiline ? ' multiline' : '') + (opts.nowrap ? ' nowrap' : '') + '">' +
+          (blank ? (opts.blankText || 'Not given') : escapeHtml(value)) + '</div></div>';
+      };
+      const field = (k, opts) => {
+        if (!has(k)) return '';
+        const def = fieldDef(k);
+        let v = row[k] || '';
+        if (def.zeroIsNone && /^0*$/.test(v)) return item(def.label, [k], '', { blankText: 'None' });
+        return item(def.label, [k], v, opts);
+      };
+      const card = (title, body, cls) => body ? '<div class="view-section ' + (cls || '') + '"><h2>' + title + '</h2><div class="view-grid">' + body + '</div></div>' : '';
+
+      let dobText = '';
+      if (has('date_of_birth') && row.date_of_birth) {
+        const age = ageFrom(row.date_of_birth) || row.age;
+        dobText = prettyDate(row.date_of_birth) + (age ? ' (age\u00a0' + age + ')' : '');
+      }
+      const member = (has('date_of_birth') ? item('Date of Birth', ['date_of_birth', 'age'], dobText) : field('age')) +
+        field('marital_status') + field('tanzeem') + field('branch');
+      const nw = { nowrap: true };
+      const contact = field('mobile', nw) + field('telephone_res', nw) + field('telephone_work', nw) +
+        field('telephone_other', nw) + field('email', { wide: true, nowrap: true });
+      const addrKeys = ['address_1', 'address_2', 'address_3', 'address_4', 'city', 'post_code', 'country'].filter(has);
+      const address = addrKeys.length
+        ? item('Address', addrKeys, addrKeys.map((k) => row[k]).filter(Boolean).join('\n'), { wide: true, multiline: true })
+        : '';
+      const family = field('family_code') + field('relationship_to_hof');
+      const wasiyyat = field('wasiyyat_number') + field('wasiyyat_status') + field('waqf_e_nau_number');
+      const other = data.columns.filter((c) => !FIELDS[c.key] && c.key !== data.idKey && c.key !== data.nameKey)
+        .map((c) => field(c.key)).join('');
+
+      $('view-sections').innerHTML =
+        card('Personal', member) + card('Contact', contact) + card('Address', address, 'address') +
+        card('Family', family) + card('Wasiyyat &amp; Waqf-e-Nau', wasiyyat) + card('Other', other);
+      this.fit();
 
       const upd = $('view-updated');
       upd.hidden = !changedKeys.length;
       clearTimeout(this.t);
       if (changedKeys.length) this.t = setTimeout(() => { upd.hidden = true; }, 4000);
-      if (!sameMember) window.scrollTo(0, 0);
 
       this.shownId = cur.id;
       this.shownValues = Object.assign({}, row);
+    },
+
+    // Make the text as large as possible while everything still fits on one screen.
+    fit() {
+      const screen = $('view-screen');
+      if ($('view-member').hidden) return;
+      const overflows = () => screen.scrollHeight > window.innerHeight || screen.scrollWidth > window.innerWidth ||
+        Array.from(screen.querySelectorAll('.value.nowrap')).some((v) => v.scrollWidth > v.clientWidth + 1);
+      let size = 40;
+      screen.style.fontSize = size + 'px';
+      while (size > 9 && overflows()) {
+        size -= 0.5;
+        screen.style.fontSize = size + 'px';
+      }
     },
   };
 

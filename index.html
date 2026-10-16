@@ -42,7 +42,7 @@
 
     <main id="edit-main" class="edit-layout" hidden>
       <aside class="list-panel">
-        <input id="search" type="search" placeholder="Search name or AIMS ID" autocomplete="off">
+        <input id="search" type="search" placeholder="Search name or AMJS ID" autocomplete="off">
         <div id="result-count" class="muted"></div>
         <ul id="member-list" class="member-list"></ul>
       </aside>
@@ -55,9 +55,6 @@
           <div class="form-head">
             <h2 id="form-title"></h2>
             <div class="form-actions">
-              <label class="inline">Verified by
-                <input id="editor-name" type="text" placeholder="Your name">
-              </label>
               <button type="button" id="close-member" class="secondary">Close</button>
               <button type="submit" id="save-member">Save</button>
             </div>
@@ -76,10 +73,17 @@
       <p>Please wait…</p>
     </div>
     <div id="view-member" hidden>
-      <h1 id="view-name"></h1>
-      <p class="muted">Please check your details below and tell us if anything is wrong.</p>
-      <div id="view-updated" class="status" hidden>Details updated</div>
-      <div id="view-sections"></div>
+      <header class="view-head">
+        <div>
+          <h1 id="view-name"></h1>
+          <div id="view-id" class="view-id"></div>
+        </div>
+        <div class="view-head-right">
+          <div id="view-updated" class="view-updated" hidden>Details updated</div>
+          <p class="muted">Please check your details and tell us if anything is wrong.</p>
+        </div>
+      </header>
+      <div id="view-sections" class="view-cards"></div>
     </div>
   </section>
 
