@@ -24,6 +24,8 @@ You only need to pick the file once. The browser remembers the data after that.
 - In **Chrome or Edge**, clicking Save also writes the change into the file you opened. The first time, the browser asks for permission.
 - In **other browsers**, changes are only kept inside the browser. Use **Export CSV** or **Export Excel** to download the updated file, then replace your old file with it.
 
+Tick **Changed rows only** before exporting to get just the members you've updated since loading the file.
+
 Export regularly. Clearing your browser data deletes any changes you haven't exported.
 
 ## Example data

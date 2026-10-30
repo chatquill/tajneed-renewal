@@ -391,6 +391,8 @@
       $('edit-main').hidden = !has;
       $('export-csv').disabled = !has;
       $('export-xlsx').disabled = !has;
+      $('export-changed').disabled = !has;
+      $('export-changed-label').textContent = 'Changed rows only' + (has ? ' (' + this.data.changed.length + ')' : '');
       if (!has) { $('file-info').textContent = ''; $('col-warning').hidden = true; return; }
       const d = this.data;
       // Warn when the file doesn't have the tajneed sheet's columns (e.g. an old or different file)
@@ -612,12 +614,22 @@
 
     exportFile(kind) {
       const d = this.data;
-      const base = d.fileName.replace(/\.[^.]+$/, '') + '-updated-' + todayIso();
-      if (kind === 'csv') download(base + '.csv', toCsv(d.columns, d.rows), 'text/csv;charset=utf-8');
-      else download(base + '.xlsx', toXlsx(d.columns, d.rows),
+      const onlyChanged = $('export-changed').checked;
+      let rows = d.rows;
+      if (onlyChanged) {
+        const changed = new Set(d.changed);
+        rows = d.rows.filter((r) => changed.has(String(r[d.idKey])));
+        if (!rows.length) { alert('No members have been changed since this file was loaded.'); return; }
+      }
+      const base = d.fileName.replace(/\.[^.]+$/, '') + (onlyChanged ? '-changes-' : '-updated-') + todayIso();
+      if (kind === 'csv') download(base + '.csv', toCsv(d.columns, rows), 'text/csv;charset=utf-8');
+      else download(base + '.xlsx', toXlsx(d.columns, rows),
         'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
-      d.unexported = false;
-      saveData(d);
+      // A changed-rows export is not a full copy of the file, so it doesn't count as "exported"
+      if (!onlyChanged) {
+        d.unexported = false;
+        saveData(d);
+      }
     },
   };
 
